@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800;900&display=swap');
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #f0f4ff; font-family: 'Sora', sans-serif; }
+input, textarea, button, select { font-family: inherit; }
+input[type=date]::-webkit-calendar-picker-indicator { opacity: .5; cursor: pointer; }
+
+/* Focus styles */
+.pp-input:focus { border-color: #4f46e5 !important; box-shadow: 0 0 0 3px rgba(79,70,229,.12) !important; outline: none; }
+
+
+/* Button hover effects */
+.hp-btn:hover { background: #4338ca; transform: translateY(-1px); }
+.hp-cta-btn:hover { opacity: .92; transform: translateY(-2px); box-shadow: 0 12px 40px rgba(79,70,229,.4) !important; }
+.hp-cta-btn:hover span:last-child { transform: translateX(3px); }
+.hp-ghost-btn:hover { background: rgba(99,102,241,.08) !important; }
+.feature-card:hover { transform: translateY(-4px); box-shadow: 0 12px 40px rgba(99,102,241,.12); }
+.stat-card:hover { transform: translateY(-2px); }
+.task-card:hover { transform: translateY(-2px); box-shadow: 0 6px 24px rgba(0,0,0,.08) !important; }
+.pp-filter-btn:hover { background: rgba(79,70,229,.07) !important; border-color: rgba(79,70,229,.3) !important; color: #4f46e5 !important; }
+.pp-task-btn:hover { opacity: .8; }
+.pp-action-btn:hover { opacity: .88; transform: translateY(-1px); }
+.pp-suggest-btn:hover { background: rgba(79,70,229,.05) !important; }
+.pp-add-btn:hover { background: rgba(79,70,229,.18) !important; }
+.pp-launch-btn:hover:not(:disabled) { opacity: .88; transform: translateY(-1px); }
+.pp-launch-btn:disabled { opacity: .55; cursor: not-allowed; }
+.pp-ghost-btn:hover { background: #f8fafc !important; color: #1e293b !important; }
+.pp-remove-btn:hover { background: rgba(239,68,68,.14) !important; }
+
+
+::-webkit-scrollbar { width: 5px; }
+::-webkit-scrollbar-thumb { background: #c7d2fe; border-radius: 99px; }
