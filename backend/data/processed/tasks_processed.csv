@@ -1,0 +1,501 @@
+task_id,title,description,role,skills,priority,complexity,duration_days,priority_value,role_value,skill_count,description_length
+1,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+2,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,5,2,3,3,5
+3,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,6,2,2,2,4
+4,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,5,2,1,2,5
+5,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+6,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,4,3,4,3,5
+7,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+8,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,7,3,0,2,8
+9,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+10,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+11,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,2,2,2,2,4
+12,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,3,3,0,2,8
+13,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,3,1,3,2,5
+14,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+15,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+16,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,6,3,1,3,5
+17,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+18,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,7,3,1,2,5
+19,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+20,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+21,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+22,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,6,2,3,3,5
+23,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,4,2,1,2,5
+24,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,4,3,4,3,5
+25,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,6,3,4,3,5
+26,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,6,2,2,2,4
+27,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,3,2,2,2,4
+28,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,7,2,4,2,3
+29,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,3,2,1,2,5
+30,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,6,3,1,3,5
+31,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,5,3,1,3,5
+32,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,5,3,1,3,5
+33,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,2,3,2,2,5
+34,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+35,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,4,2,0,3,6
+36,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+37,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+38,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,7,3,0,2,8
+39,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,5,2,4,2,3
+40,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,5,3,0,2,8
+41,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+42,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,5,2,3,3,5
+43,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,1,3,0,3,6
+44,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+45,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,5,2,3,3,5
+46,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,4,3,1,3,5
+47,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,7,3,0,2,8
+48,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,5,2,1,2,5
+49,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,1,3,0,3,6
+50,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,6,3,1,3,5
+51,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+52,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+53,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,7,3,1,3,5
+54,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+55,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+56,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+57,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+58,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,5,3,0,2,8
+59,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+60,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,5,2,1,2,5
+61,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,3,3,0,2,8
+62,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+63,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,3,3,1,3,5
+64,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,4,3,0,3,4
+65,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,2,2,3,3,5
+66,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,2,3,2,2,5
+67,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,3,3,1,3,5
+68,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,5,3,0,2,8
+69,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,4,3,0,3,4
+70,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,3,2,3,3,5
+71,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,4,2,4,2,3
+72,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,4,2,0,3,6
+73,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,2,2,2,2,4
+74,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+75,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,4,2,1,2,5
+76,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+77,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,4,3,0,3,6
+78,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,5,3,1,3,5
+79,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,3,3,0,2,8
+80,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+81,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+82,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,3,3,0,2,8
+83,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,5,3,4,3,5
+84,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+85,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,7,3,4,3,5
+86,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+87,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,2,3,2,2,5
+88,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+89,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+90,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+91,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+92,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,3,2,3,3,5
+93,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,6,3,0,3,4
+94,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+95,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,5,3,4,3,5
+96,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+97,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,3,1,3,2,5
+98,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+99,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+100,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+101,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,4,3,0,2,8
+102,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,7,3,0,2,8
+103,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,3,3,0,3,4
+104,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+105,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,2,2,3,3,5
+106,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,3,3,1,3,5
+107,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,6,3,1,2,7
+108,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+109,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+110,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,4,3,0,3,4
+111,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+112,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+113,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,4,3,1,3,5
+114,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+115,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+116,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,5,3,1,3,5
+117,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+118,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+119,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,3,2,2,2,4
+120,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,3,3,1,3,5
+121,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,3,3,0,3,6
+122,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+123,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+124,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,5,3,1,2,5
+125,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,8,3,1,2,7
+126,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+127,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,4,3,1,3,5
+128,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,4,3,4,3,5
+129,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,5,2,4,2,3
+130,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,7,3,1,2,5
+131,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+132,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,5,2,1,2,5
+133,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+134,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+135,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+136,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,6,2,3,3,5
+137,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,6,3,0,3,4
+138,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,2,2,3,3,5
+139,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,5,2,4,2,3
+140,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+141,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,3,3,1,3,5
+142,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+143,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+144,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,3,3,2,2,5
+145,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,5,3,1,2,7
+146,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,7,3,4,3,5
+147,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+148,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+149,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,4,2,0,3,6
+150,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+151,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,5,2,3,3,5
+152,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+153,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+154,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,7,3,1,2,5
+155,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+156,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,7,3,1,3,5
+157,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,2,2,0,3,6
+158,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,3,2,3,3,5
+159,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,6,3,2,2,5
+160,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+161,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+162,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+163,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,8,3,4,3,5
+164,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,8,3,4,3,5
+165,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,2,3,2,2,5
+166,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+167,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,5,3,1,3,5
+168,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+169,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,7,2,1,2,5
+170,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,3,2,0,3,6
+171,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+172,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+173,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+174,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+175,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,3,3,2,2,5
+176,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+177,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+178,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,7,2,4,2,3
+179,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,6,3,1,3,5
+180,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,6,3,0,3,4
+181,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+182,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,1,3,0,3,6
+183,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,6,2,4,2,3
+184,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,3,3,1,3,5
+185,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+186,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,6,2,4,2,3
+187,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,6,2,2,2,4
+188,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,6,3,1,2,7
+189,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,5,3,0,2,8
+190,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,3,3,0,3,6
+191,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,5,2,4,2,3
+192,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+193,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+194,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,5,3,1,3,5
+195,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,2,2,0,3,6
+196,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,5,3,1,3,5
+197,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,5,3,1,3,5
+198,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,3,1,3,2,5
+199,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,6,2,1,2,5
+200,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,5,2,4,2,3
+201,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,5,3,1,3,5
+202,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+203,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+204,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+205,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+206,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,7,3,1,3,5
+207,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,4,2,0,3,6
+208,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,7,3,1,2,5
+209,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,3,2,2,2,4
+210,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+211,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,7,3,1,3,5
+212,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+213,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+214,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+215,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+216,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,6,3,1,2,7
+217,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+218,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,5,2,3,3,5
+219,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+220,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+221,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,6,3,0,3,4
+222,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+223,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,3,3,2,2,5
+224,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,4,3,0,2,8
+225,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,3,1,3,2,5
+226,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+227,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,6,2,2,2,4
+228,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,5,3,4,3,5
+229,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,7,2,4,2,3
+230,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,4,3,0,3,4
+231,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,3,2,0,3,6
+232,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,7,3,0,2,8
+233,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,2,3,2,2,5
+234,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+235,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+236,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,4,3,4,3,5
+237,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,2,2,2,2,4
+238,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+239,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+240,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+241,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,7,2,1,2,5
+242,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,4,2,4,2,3
+243,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,5,2,3,3,5
+244,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,7,3,1,2,5
+245,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+246,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+247,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,6,2,4,2,3
+248,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,6,2,4,2,3
+249,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,6,3,4,3,5
+250,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+251,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,7,3,1,2,5
+252,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+253,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+254,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,3,3,0,3,6
+255,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+256,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,3,3,1,3,5
+257,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,5,2,1,2,5
+258,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,3,2,3,3,5
+259,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,3,1,3,2,5
+260,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,7,2,4,2,3
+261,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,8,3,1,2,7
+262,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+263,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+264,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+265,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+266,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,4,3,1,3,5
+267,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+268,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+269,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+270,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,6,3,1,3,5
+271,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+272,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+273,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,2,2,0,3,6
+274,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+275,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,5,3,1,3,5
+276,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+277,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+278,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,6,2,2,2,4
+279,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+280,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+281,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+282,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+283,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+284,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+285,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,3,3,1,3,5
+286,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,4,3,4,3,5
+287,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,8,3,1,2,7
+288,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+289,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+290,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,7,3,1,3,5
+291,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,3,3,0,2,8
+292,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+293,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+294,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,5,3,2,2,5
+295,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,8,3,1,2,5
+296,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,1,3,0,3,6
+297,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,4,3,0,3,4
+298,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,3,2,3,3,5
+299,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+300,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,3,3,0,3,6
+301,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,4,2,0,3,6
+302,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,5,2,3,3,5
+303,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,7,2,4,2,3
+304,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+305,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,4,3,0,3,4
+306,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,4,3,1,3,5
+307,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,4,3,0,2,8
+308,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+309,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,3,2,0,3,6
+310,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,6,3,1,2,7
+311,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,6,2,2,2,4
+312,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+313,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+314,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+315,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,6,2,4,2,3
+316,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+317,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,4,2,4,2,3
+318,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+319,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+320,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+321,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,4,3,4,3,5
+322,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,3,1,3,2,5
+323,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+324,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+325,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+326,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,6,3,2,2,5
+327,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,6,3,0,3,4
+328,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,7,2,4,2,3
+329,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+330,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,5,3,1,2,5
+331,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+332,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+333,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,8,3,4,3,5
+334,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,7,2,1,2,5
+335,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,6,3,2,2,5
+336,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,3,2,2,2,4
+337,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,3,3,1,3,5
+338,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+339,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+340,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,6,3,0,3,4
+341,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+342,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,5,3,1,3,5
+343,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+344,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,6,2,1,2,5
+345,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,3,2,2,2,4
+346,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,6,3,2,2,5
+347,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,5,3,1,2,5
+348,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,3,1,3,2,5
+349,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,6,2,4,2,3
+350,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,5,3,2,2,5
+351,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+352,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,7,3,4,3,5
+353,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+354,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+355,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,1,2,0,3,6
+356,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+357,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+358,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,8,3,1,2,5
+359,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,6,3,4,3,5
+360,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+361,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,3,2,3,3,5
+362,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,4,3,0,3,6
+363,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,6,2,2,2,4
+364,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+365,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,4,3,0,3,4
+366,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,3,3,1,3,5
+367,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,3,3,1,3,5
+368,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+369,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,1,3,0,3,6
+370,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+371,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+372,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+373,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,7,3,0,2,8
+374,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,7,3,0,2,8
+375,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,2,3,2,2,5
+376,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,3,1,3,2,5
+377,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,6,3,1,3,5
+378,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,4,3,1,3,5
+379,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+380,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+381,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+382,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,3,3,0,3,4
+383,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,3,2,1,2,5
+384,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,6,2,4,2,3
+385,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,4,3,0,2,8
+386,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,3,2,4,2,3
+387,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,8,3,1,2,7
+388,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,5,3,2,2,5
+389,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,5,2,1,2,5
+390,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+391,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,4,3,0,3,6
+392,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,3,2,3,3,5
+393,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,7,3,1,2,5
+394,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,4,3,1,3,5
+395,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+396,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+397,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,7,3,1,3,5
+398,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,3,2,2,2,4
+399,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,6,2,4,2,3
+400,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,3,3,1,3,5
+401,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,5,3,2,2,5
+402,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,4,3,1,3,5
+403,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,4,2,0,3,6
+404,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,8,3,4,3,5
+405,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,6,3,2,2,5
+406,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,4,3,2,2,5
+407,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,6,3,0,3,4
+408,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,4,2,4,2,3
+409,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,6,3,4,3,5
+410,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,6,3,1,3,5
+411,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,3,3,1,3,5
+412,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,1,1,3,2,5
+413,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+414,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+415,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,4,3,1,2,7
+416,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+417,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,5,3,1,2,5
+418,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,4,2,0,3,6
+419,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,3,3,0,3,6
+420,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+421,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+422,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+423,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,4,2,4,2,3
+424,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,6,3,0,3,4
+425,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+426,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,6,3,1,3,5
+427,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+428,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,3,2,0,3,6
+429,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+430,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,4,3,0,3,6
+431,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,4,3,1,3,5
+432,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+433,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,5,3,0,3,4
+434,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+435,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,5,2,2,2,4
+436,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,5,3,1,3,5
+437,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+438,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,4,3,1,3,5
+439,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+440,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,4,2,1,2,5
+441,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+442,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,7,3,1,3,5
+443,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+444,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,7,3,4,3,5
+445,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,5,3,1,3,5
+446,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,5,2,3,3,5
+447,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+448,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,7,3,1,2,7
+449,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+450,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+451,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+452,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,7,2,1,2,5
+453,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,6,3,1,2,5
+454,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,2,2,0,3,6
+455,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,3,2,0,3,6
+456,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,5,3,1,3,5
+457,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,8,3,1,2,5
+458,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+459,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,4,2,4,2,3
+460,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,4,3,1,2,5
+461,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,7,3,1,3,5
+462,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,7,2,4,2,3
+463,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,5,3,1,2,7
+464,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,4,3,0,2,8
+465,Train Task Prediction Model,Train machine learning model for task analysis,backend,"Python,Machine Learning",High,5,6,3,1,2,7
+466,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,6,3,4,3,5
+467,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,2,2,3,3,5
+468,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+469,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,4,2,1,2,5
+470,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,4,3,0,2,8
+471,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,7,3,1,3,5
+472,Implement Scheduling,Create automatic task scheduling logic,backend,"Python,Algorithms",High,5,8,3,1,2,5
+473,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,2,2,2,2,4
+474,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+475,Build REST API,Create backend API for application,backend,"Python,Flask,API",High,4,4,3,1,3,5
+476,Build Dashboard,Create project management dashboard,frontend,"React,CSS,JavaScript",High,4,7,3,0,3,4
+477,Design Database,Create database schema and relationships,database,"SQL,Database",High,3,5,3,2,2,5
+478,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,4,1,3,2,5
+479,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,7,3,0,2,8
+480,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,4,2,3,3,5
+481,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,6,3,0,2,8
+482,Implement Task Management,Add create edit delete and complete task functionality,frontend,"React,JavaScript",High,4,5,3,0,2,8
+483,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,7,3,4,3,5
+484,Configure Docker,Containerize the application,devops,"Docker,DevOps",Medium,4,5,2,4,2,3
+485,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,2,2,0,3,6
+486,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,8,3,4,3,5
+487,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,2,2,0,3,6
+488,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,4,2,2,2,4
+489,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,3,2,2,2,4
+490,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,6,2,3,3,5
+491,Create Project Logo,Design logo and branding elements,design,"Figma,Canva",Low,1,2,1,3,2,5
+492,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,5,2,0,3,6
+493,Create ML Dataset,Prepare dataset for task prediction,backend,"Python,Machine Learning",Medium,4,5,2,1,2,5
+494,Create Database Tables,Implement tables and constraints,database,"SQL,MySQL",Medium,3,6,2,2,2,4
+495,Build Registration Page,Create user registration form and validation,frontend,"React,CSS,JavaScript",Medium,2,4,2,0,3,6
+496,Design Application UI,Create UI design and wireframes,design,"Figma,UI,UX",Medium,3,3,2,3,3,5
+497,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,5,3,0,3,6
+498,Deploy Application,Deploy application to cloud server,devops,"AWS,Docker,DevOps",High,5,8,3,4,3,5
+499,Create Login Page,Design and implement user login interface,frontend,"React,CSS,JavaScript",High,2,2,3,0,3,6
+500,Create Authentication API,Implement login authentication and authorization,backend,"Python,Flask,JWT",High,4,3,3,1,3,5
