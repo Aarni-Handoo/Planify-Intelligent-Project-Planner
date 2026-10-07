@@ -7,7 +7,7 @@ The work has been divided into 8 phases.
 
 ✅ PHASE 1  →  Backend Foundation
 
-PHASE 2  →  Dataset + Data Pipeline
+✅ PHASE 2  →  Dataset + Data Pipeline
 
 PHASE 3  →  Train the ML Model
 
