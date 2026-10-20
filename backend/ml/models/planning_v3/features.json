@@ -1,0 +1,14 @@
+[
+  "total_hours",
+  "capacity_hours",
+  "workload_ratio",
+  "days",
+  "task_count",
+  "member_count",
+  "missing_skills",
+  "dependency_count",
+  "max_chain",
+  "avg_complexity",
+  "baseline_unscheduled_hours",
+  "baseline_utilization"
+]

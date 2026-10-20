@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { checkBackend } from "./services/api";
+import { checkBackend, planProject, recalculateSchedule } from "./services/api";
 import HomePage from "./components/HomePage";
 import SetupScreen from "./components/SetupScreen";
 import PlannerScreen from "./components/PlannerScreen";
@@ -126,7 +126,8 @@ export default function App()
         {
             id: uid(),
             name: "",
-            skills: ""
+            skills: "",
+            daily_capacity: 5
         }
     ]);
 
@@ -485,229 +486,69 @@ export default function App()
 
     // ─── Suggest tasks ───────────────────────────────────────────────────────
 
-    const recommendTasks = async () =>
-    {
-        setLoading(true);
-
-        setLoadMsg("Building your task roadmap...");
-
-        await new Promise((r) => setTimeout(r, 900));
-
-        const start = project.startDate;
-        const end = project.deadline;
-
-        const totalDays = diffDays(end, start);
-
-
-        const phases =
-        [
-            {
-                title: "Project Kickoff Meeting",
-                role: "team",
-                pctStart: 0,
-                pctEnd: 3,
-                priority: "HIGH",
-                desc: "Align the team on goals, scope, timeline, and key deliverables."
-            },
-
-            {
-                title: "Requirements Gathering",
-                role: "team",
-                pctStart: 2,
-                pctEnd: 10,
-                priority: "HIGH",
-                desc: "Collect user stories, business requirements, and define acceptance criteria."
-            },
-
-            {
-                title: "UI/UX Wireframing",
-                role: "design",
-                pctStart: 10,
-                pctEnd: 20,
-                priority: "HIGH",
-                desc: "Create low-fidelity wireframes and user flow diagrams."
-            },
-
-            {
-                title: "Visual Design & Mockups",
-                role: "design",
-                pctStart: 18,
-                pctEnd: 27,
-                priority: "MEDIUM",
-                desc: "Produce high-fidelity designs, colour palettes, and component styles."
-            },
-
-            {
-                title: "Database Schema Design",
-                role: "database",
-                pctStart: 15,
-                pctEnd: 23,
-                priority: "HIGH",
-                desc: "Define entity relationships, schema, indexes, and migration plan."
-            },
-
-            {
-                title: "Backend Architecture & API Setup",
-                role: "backend",
-                pctStart: 20,
-                pctEnd: 32,
-                priority: "HIGH",
-                desc: "Scaffold backend, configure auth, and define core REST/GraphQL endpoints."
-            },
-
-            {
-                title: "Frontend Development – Phase 1",
-                role: "frontend",
-                pctStart: 28,
-                pctEnd: 45,
-                priority: "HIGH",
-                desc: "Build core UI components, routing, and responsive layouts."
-            },
-
-            {
-                title: "Backend Core Feature Development",
-                role: "backend",
-                pctStart: 32,
-                pctEnd: 50,
-                priority: "HIGH",
-                desc: "Implement main business logic, controllers, services and middleware."
-            },
-
-            {
-                title: "Database Integration",
-                role: "database",
-                pctStart: 38,
-                pctEnd: 48,
-                priority: "MEDIUM",
-                desc: "Connect ORM/queries to backend services; implement CRUD operations."
-            },
-
-            {
-                title: "Frontend–Backend Integration",
-                role: "fullstack",
-                pctStart: 50,
-                pctEnd: 63,
-                priority: "MEDIUM",
-                desc: "Wire frontend components to live API endpoints, handle state and errors."
-            },
-
-            {
-                title: "Stakeholder Review & Feedback",
-                role: "team",
-                pctStart: 63,
-                pctEnd: 68,
-                priority: "MEDIUM",
-                desc: "Demo current build to stakeholders; collect feedback and prioritise changes."
-            },
-
-            {
-                title: "Frontend Development – Phase 2",
-                role: "frontend",
-                pctStart: 68,
-                pctEnd: 76,
-                priority: "MEDIUM",
-                desc: "Apply feedback, polish UI, add secondary features and accessibility."
-            },
-
-            {
-                title: "Testing & QA",
-                role: "fullstack",
-                pctStart: 76,
-                pctEnd: 86,
-                priority: "HIGH",
-                desc: "Write unit, integration, and E2E tests; fix bugs and edge cases."
-            },
-
-            {
-                title: "Performance & Security Audit",
-                role: "backend",
-                pctStart: 85,
-                pctEnd: 91,
-                priority: "MEDIUM",
-                desc: "Optimise load times, fix vulnerabilities, review OWASP checklist."
-            },
-
-            {
-                title: "Final Review & Staging Deploy",
-                role: "team",
-                pctStart: 91,
-                pctEnd: 96,
-                priority: "HIGH",
-                desc: "Full regression test on staging; sign-off from stakeholders."
-            },
-
-            {
-                title: "Production Deployment",
-                role: "devops",
-                pctStart: 95,
-                pctEnd: 98,
-                priority: "HIGH",
-                desc: "Release to production, monitor logs, configure alerts and rollback plan."
-            },
-
-            {
-                title: "Documentation & Handover",
-                role: "team",
-                pctStart: 97,
-                pctEnd: 100,
-                priority: "LOW",
-                desc: "Write user guides, API docs, internal wiki, and complete project handover."
-            }
-        ];
-
-
-        const newTasks = phases.map((p) =>
-        {
-            const taskStart = addDays(
-                start,
-                Math.round(totalDays * p.pctStart / 100)
-            );
-
-            const taskDue = addDays(
-                start,
-                Math.min(
-                    Math.round(totalDays * p.pctEnd / 100),
-                    totalDays
-                )
-            );
-
-            const dur = Math.max(
-                1,
-                diffDays(taskDue, taskStart) + 1
-            );
-
-
+    // AI task decomposition + trained ML effort + capacity-aware scheduling.
+    // Product users see only their project plan, never model internals.
+    const mapScheduledTasks = (plan, startDate, prior = []) => {
+        const allocations = plan.schedule_result?.assignments || [];
+        const existing = new Map(prior.map(t => [t.id, t]));
+        const memberNames = new Map(members.map(m => [String(m.id), m.name]));
+        return plan.tasks.map(t => {
+            const assigned = allocations.filter(a => a.task_id === t.id);
+            const days = assigned.map(a => a.day);
+            const first = days.length ? Math.min(...days) : null;
+            const last = days.length ? Math.max(...days) : null;
+            const assignees = [...new Set(assigned.map(a => a.member_name || memberNames.get(a.member_id)).filter(Boolean))];
             return {
-                id: uid(),
-                title: p.title,
-                description: p.desc,
-                assignees: getAssignees(p.role),
-                priority: p.priority,
-                durationDays: dur,
-                startDate: taskStart,
-                dueDate: taskDue,
-                dependencies: [],
-                completed: false,
-                deleted: false
+                ...(existing.get(t.id) || {}),
+                id: t.id, title: t.title, description: t.description || t.title,
+                assignees: assignees.length ? assignees : ["Unassigned"],
+                unscheduled: !days.length,
+                unscheduledReason: plan.schedule_result?.unscheduled_tasks?.find(u => u.task_id === t.id)?.reason || "Not yet scheduled",
+                priority: String(t.priority || "medium").toUpperCase(),
+                startDate: first == null ? startDate : addDays(startDate, first - 1),
+                dueDate: last == null ? startDate : addDays(startDate, last - 1),
+                durationDays: last == null ? 0 : last - first + 1,
+                dependencies: t.dependencies || [],
+                required_skills: t.required_skills || [],
+                estimated_hours: t.estimated_hours,
+                complexity: t.complexity,
+                category: t.category,
+                completed: existing.get(t.id)?.completed || false,
+                deleted: existing.get(t.id)?.deleted || false
             };
         });
-
-
-        setTasks((prev) =>
-        [
-            ...prev,
-            ...newTasks
-        ]);
-
-
-        setLoading(false);
-
-        toast(
-            `✅ Added ${newTasks.length} tasks in logical sequence!`,
-            "success"
-        );
     };
 
+    const recommendTasks = async () => {
+        setLoading(true);
+        setLoadMsg("Creating your personalized project plan...");
+        try {
+            const days = Math.max(1, diffDays(project.deadline, project.startDate) + 1);
+            const result = await planProject({
+                project_name: project.name,
+                description: project.description || "",
+                project_type: "General",
+                deadline_days: days,
+                members: members.filter(m => m.name).map(m => ({
+                    id: String(m.id), name: m.name, skills: m.skills,
+                    daily_capacity: Number(m.daily_capacity ?? 5)
+                }))
+            });
+            if (!result.success) throw new Error(result.error || "Planning failed");
+            const mapped = mapScheduledTasks(result, project.startDate);
+            lastReplan.current = mapped.map(t => `${t.id}:${!!t.completed}:${!!t.deleted}:${t.estimated_hours || 0}`).join("|");
+            setTasks(mapped);
+            const unscheduled = result.schedule_result.unscheduled_tasks || [];
+            toast(unscheduled.length
+                ? `Created ${mapped.length} tasks. ${unscheduled.length} need more time or matching skills.`
+                : `Your personalized plan is ready: ${mapped.length} scheduled tasks!`,
+                unscheduled.length ? "warn" : "success");
+        } catch (error) {
+            toast(`Unable to generate plan: ${error.message}`, "error");
+        } finally {
+            setLoading(false);
+        }
+    };
 
     // ─── Task actions ────────────────────────────────────────────────────────
 
@@ -724,10 +565,7 @@ export default function App()
             )
         );
 
-        toast(
-            "Task status updated",
-            "success"
-        );
+        toast("Task status updated", "success");
     };
 
 
@@ -750,6 +588,40 @@ export default function App()
         );
     };
 
+
+    // Replan remaining work when task completion or deletion changes.
+    const completionSignature = tasks.map(t => `${t.id}:${!!t.completed}:${!!t.deleted}:${t.estimated_hours || 0}`).join("|");
+    const lastReplan = useRef("");
+    useEffect(() => {
+        if (screen !== "planner" || !tasks.length || !tasks.every(t => t.estimated_hours)) return;
+        if (lastReplan.current === completionSignature) return;
+        lastReplan.current = completionSignature;
+        const remainingDays = Math.max(1, diffDays(project.deadline, today()) + 1);
+        const remaining = tasks.filter(t => !t.deleted && !t.completed);
+        if (!remaining.length) return;
+        let cancelled = false;
+        recalculateSchedule({
+            deadline_days: remainingDays,
+            members: members.filter(m => m.name).map(m => ({
+                id: String(m.id), name: m.name, skills: m.skills,
+                daily_capacity: Number(m.daily_capacity ?? 5)
+            })),
+            tasks: tasks.map(t => ({
+                id: t.id, title: t.title, description: t.description,
+                completed: t.completed, deleted: t.deleted,
+                dependencies: t.dependencies || [],
+                required_skills: t.required_skills || [],
+                estimated_hours: t.estimated_hours,
+                priority: (t.priority || "medium").toLowerCase()
+            }))
+        }).then(plan => {
+            if (cancelled || !plan.success) return;
+            const updated = mapScheduledTasks(plan, today(), tasks);
+            const byId = new Map(updated.map(t => [t.id, t]));
+            setTasks(prev => prev.map(t => t.completed || t.deleted ? t : (byId.get(t.id) || t)));
+        }).catch(err => console.warn("Replanning unavailable", err));
+        return () => { cancelled = true; };
+    }, [completionSignature, screen]);
 
     // ─── Shift task ──────────────────────────────────────────────────────────
 
@@ -881,7 +753,8 @@ export default function App()
             {
                 id: uid(),
                 name: "",
-                skills: ""
+                skills: "",
+            daily_capacity: 5
             }
         ]);
     };
@@ -934,7 +807,8 @@ export default function App()
             {
                 id: uid(),
                 name: "",
-                skills: ""
+                skills: "",
+            daily_capacity: 5
             }
         ]);
 
@@ -987,40 +861,6 @@ export default function App()
             )
             : 100;
     })();
-
-    useEffect(() => {
-
-    checkBackend()
-        .then((data) => {
-            console.log("HEALTH:", data);
-        });
-
-    fetch("http://localhost:5000/api/analyze-task", {
-        method: "POST",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-            title: "Build Login API",
-            description: "Implement authentication using JWT",
-            projectType: "Backend Heavy"
-        })
-    })
-        .then((response) => response.json())
-        .then((data) => {
-            console.log("ANALYZE TASK:", data);
-        })
-        .catch((error) => {
-            console.error("ANALYZE ERROR:", error);
-        });
-
-}, []);
-
-
-
-
-    
-
 
     // ─── Render ──────────────────────────────────────────────────────────────
 

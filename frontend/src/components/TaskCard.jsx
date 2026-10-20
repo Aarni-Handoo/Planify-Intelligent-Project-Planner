@@ -8,9 +8,9 @@ const REG_NO_24BCT0256 = "24BCT0256";
 
 function TaskCardAarniHandoo24BCT0256({ task, todayStr, onToggleComplete, onDelete, onShift, onEdit }) {
   const diff = diffDays(task.dueDate, todayStr);
-  const isOverdue = !task.completed && diff < 0;
-  const isDueToday = !task.completed && diff === 0;
-  const isDueSoon = !task.completed && diff === 1;
+  const isOverdue = !task.unscheduled && !task.completed && diff < 0;
+  const isDueToday = !task.unscheduled && !task.completed && diff === 0;
+  const isDueSoon = !task.unscheduled && !task.completed && diff === 1;
 
   return (
     <div style={{ ...S.taskCard, borderLeft: `4px solid ${priorityColor(task.priority)}`, background: task.completed ? "#f8fafc" : priorityBg(task.priority), opacity: task.completed ? 0.65 : 1 }} className="task-card">
@@ -20,6 +20,7 @@ function TaskCardAarniHandoo24BCT0256({ task, todayStr, onToggleComplete, onDele
           <span style={S.taskTitle}>{task.completed ? <s>{task.title}</s> : task.title}</span>
         </div>
         <div style={S.taskRight}>
+          {task.unscheduled && <span style={S.badge("error")}>UNSCHEDULED</span>}
           {isOverdue && <span style={S.badge("error")}>OVERDUE</span>}
           {isDueToday && <span style={S.badge("warn")}>DUE TODAY</span>}
           {isDueSoon && <span style={S.badge("info")}>TOMORROW</span>}
@@ -28,8 +29,10 @@ function TaskCardAarniHandoo24BCT0256({ task, todayStr, onToggleComplete, onDele
       <p style={S.taskDesc}>{task.description}</p>
       <div style={S.taskMeta}>
         <span style={S.metaChip}>👤 {task.assignees?.join(", ") || "Team"}</span>
-        <span style={S.metaChip}>📅 {fmtDate(task.startDate)} → {fmtDate(task.dueDate)}</span>
-        <span style={S.metaChip}>⏱ {task.durationDays}d</span>
+        {task.unscheduled ? <span style={S.metaChip}>⚠ {task.unscheduledReason || "Cannot schedule with current team/deadline"}</span> : <>
+          <span style={S.metaChip}>📅 {fmtDate(task.startDate)} → {fmtDate(task.dueDate)}</span>
+          <span style={S.metaChip}>⏱ {task.durationDays}d</span>
+        </>}
       </div>
       <div style={S.taskActions}>
         <button style={S.actionBtn("success")} onClick={() => onToggleComplete(task.id)} className="pp-task-btn">

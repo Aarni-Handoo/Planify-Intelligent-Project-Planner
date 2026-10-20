@@ -1,0 +1,1038 @@
+required_skill,member_skill,compatible,split,source
+web storage,javascript,1,train,curated_generated
+browser events,javascript,1,train,curated_generated
+ecmascript,javascript,1,train,curated_generated
+client-side scripting,javascript,1,test,curated_generated
+finding errors in javascript,javascript,1,train,curated_generated
+2d arrays in javascript,javascript,1,train,curated_generated
+browser storage,javascript,1,test,curated_generated
+js,javascript,1,train,curated_generated
+dom manipulation,javascript,1,train,curated_generated
+javascript,javascript,1,train,curated_generated
+dom,javascript,1,train,curated_generated
+event listeners,javascript,1,train,curated_generated
+document object model,javascript,1,train,curated_generated
+3d arrays in javascript,javascript,1,train,curated_generated
+domskill,javascript,1,train,curated_generated
+localstorage,javascript,1,test,curated_generated
+array methods,javascript,1,test,curated_generated
+javascript debugging,javascript,1,train,curated_generated
+python debugging,javascript,0,train,curated_generated
+jsx,javascript,0,test,curated_generated
+testing,javascript,0,train,curated_generated
+database schema,javascript,0,train,curated_generated
+relational databases,javascript,0,train,curated_generated
+matrix operations in c,javascript,0,test,curated_generated
+2d arrays in python,javascript,0,train,curated_generated
+python,javascript,0,train,curated_generated
+scikit-learn,javascript,0,train,curated_generated
+react user interface,javascript,0,train,curated_generated
+component state,javascript,0,train,curated_generated
+python3,javascript,0,train,curated_generated
+data manipulation in dbms,javascript,0,train,curated_generated
+crud queries,javascript,0,train,curated_generated
+access control,javascript,0,train,curated_generated
+software testing,javascript,0,test,curated_generated
+python arrays,javascript,0,train,curated_generated
+hosting,javascript,0,train,curated_generated
+usability,javascript,0,train,curated_generated
+deployment,javascript,0,train,curated_generated
+diagnosing software bugs,javascript,0,train,curated_generated
+database queries,javascript,0,train,curated_generated
+secure login,javascript,0,train,curated_generated
+security,javascript,0,train,curated_generated
+cross browser testing,javascript,0,train,curated_generated
+aws cloud,javascript,0,test,curated_generated
+machine learning,javascript,0,train,curated_generated
+pytorch,javascript,0,train,curated_generated
+typescript,javascript,0,train,curated_generated
+dockerfiles,javascript,0,train,curated_generated
+image classification,javascript,0,test,curated_generated
+media queries,javascript,0,test,curated_generated
+flask backend,javascript,0,train,curated_generated
+sql data manipulation,javascript,0,train,curated_generated
+java,javascript,0,train,curated_generated
+object detection,javascript,0,train,curated_generated
+responsive styling,javascript,0,test,curated_generated
+3d arrays in python,javascript,0,test,curated_generated
+tensorflow,javascript,0,train,curated_generated
+regression model,javascript,0,train,curated_generated
+web page markup,javascript,0,train,curated_generated
+semantic html,javascript,0,train,curated_generated
+java debugging,javascript,0,train,curated_generated
+html layout,javascript,0,train,curated_generated
+java arrays,javascript,0,train,curated_generated
+java programming,javascript,0,train,curated_generated
+ui/ux,javascript,0,test,curated_generated
+2d arrays in c,javascript,0,train,curated_generated
+react hooks,javascript,0,train,curated_generated
+sql joins,javascript,0,train,curated_generated
+troubleshooting code,javascript,0,train,curated_generated
+css3,javascript,0,train,curated_generated
+kubernetes,javascript,0,train,curated_generated
+html5,javascript,0,train,curated_generated
+web storage,typescript,1,train,curated_generated
+browser events,typescript,1,train,curated_generated
+ecmascript,typescript,1,train,curated_generated
+client-side scripting,typescript,1,test,curated_generated
+finding errors in javascript,typescript,1,train,curated_generated
+2d arrays in javascript,typescript,1,train,curated_generated
+browser storage,typescript,1,test,curated_generated
+js,typescript,1,train,curated_generated
+dom manipulation,typescript,1,train,curated_generated
+javascript,typescript,1,train,curated_generated
+dom,typescript,1,train,curated_generated
+event listeners,typescript,1,train,curated_generated
+ts,typescript,1,train,curated_generated
+document object model,typescript,1,train,curated_generated
+3d arrays in javascript,typescript,1,train,curated_generated
+domskill,typescript,1,train,curated_generated
+localstorage,typescript,1,test,curated_generated
+array methods,typescript,1,test,curated_generated
+javascript debugging,typescript,1,train,curated_generated
+typescript,typescript,1,train,curated_generated
+ui/ux,typescript,0,test,curated_generated
+github pages deployment,typescript,0,train,curated_generated
+postgresql,typescript,0,train,curated_generated
+responsive styling,typescript,0,test,curated_generated
+web page markup,typescript,0,train,curated_generated
+database,typescript,0,train,curated_generated
+bug reporting,typescript,0,train,curated_generated
+python,typescript,0,train,curated_generated
+dbms,typescript,0,train,curated_generated
+3d arrays in python,typescript,0,test,curated_generated
+kubernetes,typescript,0,train,curated_generated
+test cases,typescript,0,train,curated_generated
+image recognition,typescript,0,train,curated_generated
+usability,typescript,0,train,curated_generated
+scikit-learn,typescript,0,train,curated_generated
+java debugging,typescript,0,train,curated_generated
+cloud computing,typescript,0,test,curated_generated
+sql,typescript,0,train,curated_generated
+3d arrays in java,typescript,0,train,curated_generated
+python debugging,typescript,0,train,curated_generated
+github repositories,typescript,0,test,curated_generated
+c debugging,typescript,0,train,curated_generated
+hosting,typescript,0,train,curated_generated
+deployment,typescript,0,train,curated_generated
+git,typescript,0,train,curated_generated
+semantic html,typescript,0,train,curated_generated
+user interface design,typescript,0,train,curated_generated
+node.js,typescript,0,train,curated_generated
+python3,typescript,0,train,curated_generated
+testing,typescript,0,train,curated_generated
+docker,typescript,0,test,curated_generated
+2d arrays in c,typescript,0,train,curated_generated
+api development,typescript,0,train,curated_generated
+cloud,typescript,0,test,curated_generated
+mysql,typescript,0,test,curated_generated
+python flask,typescript,0,train,curated_generated
+computer vision,typescript,0,train,curated_generated
+deploying applications,typescript,0,train,curated_generated
+node backend,typescript,0,train,curated_generated
+c,typescript,0,train,curated_generated
+nodejs,typescript,0,test,curated_generated
+java,typescript,0,train,curated_generated
+html,typescript,0,train,curated_generated
+c programming,typescript,0,test,curated_generated
+jsx,typescript,0,test,curated_generated
+c++ debugging,typescript,0,train,curated_generated
+database queries,typescript,0,train,curated_generated
+classification model,typescript,0,train,curated_generated
+html5,typescript,0,train,curated_generated
+finding errors in python,typescript,0,train,curated_generated
+functional testing,typescript,0,train,curated_generated
+containerization,typescript,0,train,curated_generated
+publish website,typescript,0,train,curated_generated
+version control,typescript,0,train,curated_generated
+debugging,typescript,0,train,curated_generated
+sqlite,typescript,0,test,curated_generated
+opencv,typescript,0,train,curated_generated
+aws cloud,typescript,0,test,curated_generated
+media queries,typescript,0,test,curated_generated
+matrix operations in c,typescript,0,test,curated_generated
+react hooks,react,1,train,curated_generated
+web storage,react,1,train,curated_generated
+browser events,react,1,train,curated_generated
+react components,react,1,train,curated_generated
+reactjs,react,1,train,curated_generated
+ecmascript,react,1,train,curated_generated
+client-side scripting,react,1,test,curated_generated
+finding errors in javascript,react,1,train,curated_generated
+2d arrays in javascript,react,1,train,curated_generated
+browser storage,react,1,test,curated_generated
+js,react,1,train,curated_generated
+dom manipulation,react,1,train,curated_generated
+javascript,react,1,train,curated_generated
+react,react,1,train,curated_generated
+jsx,react,1,test,curated_generated
+dom,react,1,train,curated_generated
+react user interface,react,1,train,curated_generated
+event listeners,react,1,train,curated_generated
+component state,react,1,train,curated_generated
+document object model,react,1,train,curated_generated
+3d arrays in javascript,react,1,train,curated_generated
+domskill,react,1,train,curated_generated
+localstorage,react,1,test,curated_generated
+array methods,react,1,test,curated_generated
+javascript debugging,react,1,train,curated_generated
+c++ debugging,react,0,train,curated_generated
+testing,react,0,train,curated_generated
+functional testing,react,0,train,curated_generated
+object detection,react,0,train,curated_generated
+deep learning,react,0,test,curated_generated
+kubernetes,react,0,train,curated_generated
+data modeling,react,0,train,curated_generated
+secure login,react,0,train,curated_generated
+qa,react,0,train,curated_generated
+access control,react,0,train,curated_generated
+css grid,react,0,train,curated_generated
+machine learning,react,0,train,curated_generated
+web page markup,react,0,train,curated_generated
+opencv,react,0,train,curated_generated
+styling web pages,react,0,test,curated_generated
+2d arrays in python,react,0,train,curated_generated
+github repositories,react,0,test,curated_generated
+3d arrays in python,react,0,test,curated_generated
+scikit-learn,react,0,train,curated_generated
+github pages deployment,react,0,train,curated_generated
+dbms,react,0,train,curated_generated
+usability,react,0,train,curated_generated
+css3,react,0,train,curated_generated
+dbms,react,0,train,curated_generated
+data manipulation in dbms,react,0,train,curated_generated
+python flask,react,0,train,curated_generated
+finding errors,react,0,test,curated_generated
+authorization,react,0,train,curated_generated
+c++ programming,react,0,train,curated_generated
+ui/ux,react,0,test,curated_generated
+ts,react,0,train,curated_generated
+flask backend,react,0,train,curated_generated
+aws cloud,react,0,test,curated_generated
+backend integration,react,0,test,curated_generated
+neural networks,react,0,train,curated_generated
+cross browser testing,react,0,train,curated_generated
+node backend,react,0,train,curated_generated
+3d arrays in c++,react,0,train,curated_generated
+deployment,react,0,train,curated_generated
+mysql,react,0,test,curated_generated
+rest api,react,0,train,curated_generated
+java programming,react,0,train,curated_generated
+database schema,react,0,train,curated_generated
+restful services,react,0,test,curated_generated
+debugging,react,0,train,curated_generated
+typescript,react,0,train,curated_generated
+2d arrays in c++,react,0,train,curated_generated
+software testing,react,0,test,curated_generated
+finding errors in python,react,0,train,curated_generated
+regression model,react,0,train,curated_generated
+media queries,react,0,test,curated_generated
+api development,react,0,train,curated_generated
+java arrays,react,0,train,curated_generated
+git commits,react,0,train,curated_generated
+publish website,react,0,train,curated_generated
+git,react,0,train,curated_generated
+c language,react,0,train,curated_generated
+http endpoints,react,0,train,curated_generated
+sql data manipulation,react,0,train,curated_generated
+docker containers,react,0,test,curated_generated
+bug reporting,react,0,train,curated_generated
+computer vision,react,0,train,curated_generated
+containerization,react,0,train,curated_generated
+java debugging,react,0,train,curated_generated
+diagnosing software bugs,react,0,train,curated_generated
+html,react,0,train,curated_generated
+container orchestration,react,0,train,curated_generated
+database queries,react,0,train,curated_generated
+2d arrays in java,react,0,train,curated_generated
+c++,react,0,train,curated_generated
+css,react,0,train,curated_generated
+cloud,react,0,test,curated_generated
+cloud infrastructure,react,0,train,curated_generated
+java,react,0,train,curated_generated
+bug fixing,react,0,test,curated_generated
+html,html,1,train,curated_generated
+semantic html,html,1,train,curated_generated
+web page markup,html,1,train,curated_generated
+html5,html,1,train,curated_generated
+html layout,html,1,train,curated_generated
+javascript,html,0,train,curated_generated
+dom,html,0,train,curated_generated
+machine learning,html,0,train,curated_generated
+client-side scripting,html,0,test,curated_generated
+image classification,html,0,test,curated_generated
+component state,html,0,train,curated_generated
+k8s,html,0,train,curated_generated
+flask,html,0,train,curated_generated
+styling web pages,html,0,test,curated_generated
+2d arrays in java,html,0,train,curated_generated
+computer vision,html,0,train,curated_generated
+cloud computing,html,0,test,curated_generated
+github repositories,html,0,test,curated_generated
+2d arrays in c,html,0,train,curated_generated
+opencv,html,0,train,curated_generated
+c,html,0,train,curated_generated
+sql joins,html,0,train,curated_generated
+figma,html,0,train,curated_generated
+media queries,css,1,test,curated_generated
+styling web pages,css,1,test,curated_generated
+responsive design,css,1,train,curated_generated
+css,css,1,train,curated_generated
+css grid,css,1,train,curated_generated
+css3,css,1,train,curated_generated
+flexbox,css,1,train,curated_generated
+responsive styling,css,1,test,curated_generated
+ui/ux,css,0,test,curated_generated
+github pages deployment,css,0,train,curated_generated
+computer vision,css,0,train,curated_generated
+dockerfiles,css,0,train,curated_generated
+react hooks,css,0,train,curated_generated
+java arrays,css,0,train,curated_generated
+c++ programming,css,0,train,curated_generated
+javascript debugging,css,0,train,curated_generated
+troubleshooting code,css,0,train,curated_generated
+dom manipulation,css,0,train,curated_generated
+rest api,css,0,train,curated_generated
+2d arrays in c++,css,0,train,curated_generated
+cpp,css,0,train,curated_generated
+js,css,0,train,curated_generated
+typescript,css,0,train,curated_generated
+finding errors in javascript,css,0,train,curated_generated
+node backend,css,0,train,curated_generated
+client-side scripting,css,0,test,curated_generated
+event listeners,css,0,train,curated_generated
+finding errors,css,0,test,curated_generated
+backend integration,css,0,test,curated_generated
+train neural network,css,0,train,curated_generated
+c++ debugging,css,0,train,curated_generated
+database queries,css,0,train,curated_generated
+python debugging,python,1,train,curated_generated
+python scripting,python,1,train,curated_generated
+finding errors in python,python,1,train,curated_generated
+2d arrays in python,python,1,train,curated_generated
+3d arrays in python,python,1,test,curated_generated
+python3,python,1,train,curated_generated
+python arrays,python,1,train,curated_generated
+python,python,1,train,curated_generated
+classification model,python,0,train,curated_generated
+c debugging,python,0,train,curated_generated
+python flask,python,0,train,curated_generated
+react user interface,python,0,train,curated_generated
+node.js,python,0,train,curated_generated
+nodejs,python,0,test,curated_generated
+machine learning,python,0,train,curated_generated
+java programming,python,0,train,curated_generated
+cloud infrastructure,python,0,train,curated_generated
+git branches,python,0,test,curated_generated
+c,python,0,train,curated_generated
+array methods,python,0,test,curated_generated
+node backend,python,0,train,curated_generated
+publish website,python,0,train,curated_generated
+qa,python,0,train,curated_generated
+deploying applications,python,0,train,curated_generated
+github repositories,python,0,test,curated_generated
+container orchestration,python,0,train,curated_generated
+localstorage,python,0,test,curated_generated
+web storage,python,0,train,curated_generated
+finding errors in javascript,python,0,train,curated_generated
+version control,python,0,train,curated_generated
+troubleshooting code,python,0,train,curated_generated
+react,python,0,train,curated_generated
+c debugging,c,1,train,curated_generated
+c language,c,1,train,curated_generated
+c programming,c,1,test,curated_generated
+3d arrays in c,c,1,train,curated_generated
+c,c,1,train,curated_generated
+2d arrays in c,c,1,train,curated_generated
+matrix operations in c,c,1,test,curated_generated
+java programming,c,0,train,curated_generated
+python3,c,0,train,curated_generated
+python,c,0,train,curated_generated
+image recognition,c,0,train,curated_generated
+docker,c,0,test,curated_generated
+html,c,0,train,curated_generated
+deployment,c,0,train,curated_generated
+media queries,c,0,test,curated_generated
+sqlite,c,0,test,curated_generated
+kubernetes,c,0,train,curated_generated
+ts,c,0,train,curated_generated
+github pages deployment,c,0,train,curated_generated
+flask rest api,c,0,train,curated_generated
+web storage,c,0,train,curated_generated
+web storage,c,0,train,curated_generated
+flask,c,0,train,curated_generated
+dom,c,0,train,curated_generated
+browser events,c,0,train,curated_generated
+3d arrays in c++,c,0,train,curated_generated
+responsive design,c,0,train,curated_generated
+version control,c,0,train,curated_generated
+c++,cpp,1,train,curated_generated
+3d arrays in c++,cpp,1,train,curated_generated
+c++ programming,cpp,1,train,curated_generated
+cpp,cpp,1,train,curated_generated
+c++ debugging,cpp,1,train,curated_generated
+2d arrays in c++,cpp,1,train,curated_generated
+ml,cpp,0,train,curated_generated
+machine learning,cpp,0,train,curated_generated
+python debugging,cpp,0,train,curated_generated
+visual design,cpp,0,test,curated_generated
+finding errors in javascript,cpp,0,train,curated_generated
+responsive design,cpp,0,train,curated_generated
+ui/ux,cpp,0,test,curated_generated
+javascript,cpp,0,train,curated_generated
+user interface design,cpp,0,train,curated_generated
+3d arrays in java,cpp,0,train,curated_generated
+containerization,cpp,0,train,curated_generated
+database queries,cpp,0,train,curated_generated
+git commits,cpp,0,train,curated_generated
+flask backend,cpp,0,train,curated_generated
+web page markup,cpp,0,train,curated_generated
+python,cpp,0,train,curated_generated
+data manipulation in dbms,cpp,0,train,curated_generated
+finding errors in python,cpp,0,train,curated_generated
+java arrays,java,1,train,curated_generated
+3d arrays in java,java,1,train,curated_generated
+java debugging,java,1,train,curated_generated
+java programming,java,1,train,curated_generated
+java,java,1,train,curated_generated
+2d arrays in java,java,1,train,curated_generated
+browser storage,java,0,test,curated_generated
+node.js,java,0,train,curated_generated
+image recognition,java,0,train,curated_generated
+finding errors in javascript,java,0,train,curated_generated
+database,java,0,train,curated_generated
+web storage,java,0,train,curated_generated
+nodejs,java,0,test,curated_generated
+kubernetes cluster,java,0,test,curated_generated
+scikit-learn,java,0,train,curated_generated
+image classification,java,0,test,curated_generated
+css,java,0,train,curated_generated
+neural networks,java,0,train,curated_generated
+javascript,java,0,train,curated_generated
+styling web pages,java,0,test,curated_generated
+client-side scripting,java,0,test,curated_generated
+javascript backend,java,0,train,curated_generated
+3d arrays in c,java,0,train,curated_generated
+usability,java,0,train,curated_generated
+database queries,sql,1,train,curated_generated
+data modeling,sql,1,train,curated_generated
+postgresql,sql,1,train,curated_generated
+dbms,sql,1,train,curated_generated
+crud queries,sql,1,train,curated_generated
+sql joins,sql,1,train,curated_generated
+sqlite,sql,1,test,curated_generated
+sql,sql,1,train,curated_generated
+sql data manipulation,sql,1,train,curated_generated
+relational databases,sql,1,train,curated_generated
+relational database design,sql,1,train,curated_generated
+database,sql,1,train,curated_generated
+data manipulation in dbms,sql,1,train,curated_generated
+database schema,sql,1,train,curated_generated
+mysql,sql,1,test,curated_generated
+react hooks,sql,0,train,curated_generated
+cloud infrastructure,sql,0,train,curated_generated
+c++,sql,0,train,curated_generated
+authentication,sql,0,train,curated_generated
+2d arrays in javascript,sql,0,train,curated_generated
+javascript,sql,0,train,curated_generated
+dockerfiles,sql,0,train,curated_generated
+cloud computing,sql,0,test,curated_generated
+rest api,sql,0,train,curated_generated
+testing,sql,0,train,curated_generated
+2d arrays in c++,sql,0,train,curated_generated
+2d arrays in python,sql,0,train,curated_generated
+javascript backend,sql,0,train,curated_generated
+matrix operations in c,sql,0,test,curated_generated
+3d arrays in c++,sql,0,train,curated_generated
+hosting,sql,0,train,curated_generated
+react user interface,sql,0,train,curated_generated
+finding errors,sql,0,test,curated_generated
+regression model,sql,0,train,curated_generated
+nodejs,sql,0,test,curated_generated
+typescript,sql,0,train,curated_generated
+ecmascript,sql,0,train,curated_generated
+cloud,sql,0,test,curated_generated
+web storage,sql,0,train,curated_generated
+flask rest api,sql,0,train,curated_generated
+c++ debugging,sql,0,train,curated_generated
+react,sql,0,train,curated_generated
+cpp,sql,0,train,curated_generated
+api development,sql,0,train,curated_generated
+javascript debugging,sql,0,train,curated_generated
+deep learning,sql,0,test,curated_generated
+css grid,sql,0,train,curated_generated
+kubernetes cluster,sql,0,test,curated_generated
+event listeners,sql,0,train,curated_generated
+pytorch,sql,0,train,curated_generated
+jsx,sql,0,test,curated_generated
+styling web pages,sql,0,test,curated_generated
+html5,sql,0,train,curated_generated
+aws cloud,sql,0,test,curated_generated
+c,sql,0,train,curated_generated
+containerization,sql,0,train,curated_generated
+java,sql,0,train,curated_generated
+wireframes,sql,0,train,curated_generated
+html layout,sql,0,train,curated_generated
+troubleshooting code,sql,0,train,curated_generated
+data modeling,database,1,train,curated_generated
+dbms,database,1,train,curated_generated
+relational database design,database,1,train,curated_generated
+database,database,1,train,curated_generated
+database schema,database,1,train,curated_generated
+image classification,database,0,test,curated_generated
+ecmascript,database,0,train,curated_generated
+flask rest api,database,0,train,curated_generated
+mysql,database,0,test,curated_generated
+javascript debugging,database,0,train,curated_generated
+dom manipulation,database,0,train,curated_generated
+3d arrays in c++,database,0,train,curated_generated
+react components,database,0,train,curated_generated
+react,database,0,train,curated_generated
+web page markup,database,0,train,curated_generated
+java,database,0,train,curated_generated
+2d arrays in java,database,0,train,curated_generated
+cloud computing,database,0,test,curated_generated
+3d arrays in python,database,0,test,curated_generated
+bug fixing,database,0,test,curated_generated
+2d arrays in python,database,0,train,curated_generated
+deep learning,database,0,test,curated_generated
+train prediction model,database,0,train,curated_generated
+bug fixing,debugging,1,test,curated_generated
+diagnosing software bugs,debugging,1,train,curated_generated
+debugging,debugging,1,train,curated_generated
+troubleshooting code,debugging,1,train,curated_generated
+finding errors,debugging,1,test,curated_generated
+cpp,debugging,0,train,curated_generated
+localstorage,debugging,0,test,curated_generated
+browser events,debugging,0,train,curated_generated
+secure login,debugging,0,train,curated_generated
+github repositories,debugging,0,test,curated_generated
+java programming,debugging,0,train,curated_generated
+3d arrays in javascript,debugging,0,train,curated_generated
+javascript,debugging,0,train,curated_generated
+crud queries,debugging,0,train,curated_generated
+react user interface,debugging,0,train,curated_generated
+3d arrays in c++,debugging,0,train,curated_generated
+css3,debugging,0,train,curated_generated
+publish website,debugging,0,train,curated_generated
+python flask,debugging,0,train,curated_generated
+git commits,debugging,0,train,curated_generated
+flask backend,debugging,0,train,curated_generated
+ecmascript,debugging,0,train,curated_generated
+reactjs,debugging,0,train,curated_generated
+test cases,testing,1,train,curated_generated
+functional testing,testing,1,train,curated_generated
+testing,testing,1,train,curated_generated
+software testing,testing,1,test,curated_generated
+cross browser testing,testing,1,train,curated_generated
+bug reporting,testing,1,train,curated_generated
+qa,testing,1,train,curated_generated
+ts,testing,0,train,curated_generated
+html layout,testing,0,train,curated_generated
+python flask,testing,0,train,curated_generated
+array methods,testing,0,test,curated_generated
+troubleshooting code,testing,0,train,curated_generated
+node backend,testing,0,train,curated_generated
+flask backend,testing,0,train,curated_generated
+semantic html,testing,0,train,curated_generated
+hosting,testing,0,train,curated_generated
+component state,testing,0,train,curated_generated
+2d arrays in javascript,testing,0,train,curated_generated
+sqlite,testing,0,test,curated_generated
+bug fixing,testing,0,test,curated_generated
+debugging,testing,0,train,curated_generated
+3d arrays in python,testing,0,test,curated_generated
+c++,testing,0,train,curated_generated
+javascript debugging,testing,0,train,curated_generated
+relational database design,testing,0,train,curated_generated
+restful services,testing,0,test,curated_generated
+version control,testing,0,train,curated_generated
+authorization,testing,0,train,curated_generated
+visual design,ui/ux,1,test,curated_generated
+usability,ui/ux,1,train,curated_generated
+ui/ux,ui/ux,1,test,curated_generated
+user experience,ui/ux,1,train,curated_generated
+user interface design,ui/ux,1,train,curated_generated
+wireframes,ui/ux,1,train,curated_generated
+figma,ui/ux,1,train,curated_generated
+web page markup,ui/ux,0,train,curated_generated
+3d arrays in c,ui/ux,0,train,curated_generated
+css3,ui/ux,0,train,curated_generated
+responsive styling,ui/ux,0,test,curated_generated
+git branches,ui/ux,0,test,curated_generated
+document object model,ui/ux,0,train,curated_generated
+crud queries,ui/ux,0,train,curated_generated
+c++,ui/ux,0,train,curated_generated
+c++ debugging,ui/ux,0,train,curated_generated
+css,ui/ux,0,train,curated_generated
+react,ui/ux,0,train,curated_generated
+software testing,ui/ux,0,test,curated_generated
+array methods,ui/ux,0,test,curated_generated
+container orchestration,ui/ux,0,train,curated_generated
+c,ui/ux,0,train,curated_generated
+python arrays,ui/ux,0,train,curated_generated
+docker containers,ui/ux,0,test,curated_generated
+data modeling,ui/ux,0,train,curated_generated
+sqlite,ui/ux,0,test,curated_generated
+c language,ui/ux,0,train,curated_generated
+c programming,ui/ux,0,test,curated_generated
+git commits,git,1,train,curated_generated
+version control,git,1,train,curated_generated
+github repositories,git,1,test,curated_generated
+git,git,1,train,curated_generated
+git branches,git,1,test,curated_generated
+document object model,git,0,train,curated_generated
+python3,git,0,train,curated_generated
+bug reporting,git,0,train,curated_generated
+sql joins,git,0,train,curated_generated
+java arrays,git,0,train,curated_generated
+client-side scripting,git,0,test,curated_generated
+data modeling,git,0,train,curated_generated
+deep learning,git,0,test,curated_generated
+object detection,git,0,train,curated_generated
+browser events,git,0,train,curated_generated
+react components,git,0,train,curated_generated
+2d arrays in c++,git,0,train,curated_generated
+responsive styling,git,0,test,curated_generated
+backend integration,git,0,test,curated_generated
+3d arrays in c++,git,0,train,curated_generated
+array methods,git,0,test,curated_generated
+react,git,0,train,curated_generated
+express server,git,0,train,curated_generated
+github pages deployment,deployment,1,train,curated_generated
+netlify deployment,deployment,1,test,curated_generated
+hosting,deployment,1,train,curated_generated
+deploying applications,deployment,1,train,curated_generated
+deployment,deployment,1,train,curated_generated
+publish website,deployment,1,train,curated_generated
+version control,deployment,0,train,curated_generated
+database schema,deployment,0,train,curated_generated
+sql data manipulation,deployment,0,train,curated_generated
+cloud infrastructure,deployment,0,train,curated_generated
+neural networks,deployment,0,train,curated_generated
+react components,deployment,0,train,curated_generated
+qa,deployment,0,train,curated_generated
+backend integration,deployment,0,test,curated_generated
+python,deployment,0,train,curated_generated
+c++ programming,deployment,0,train,curated_generated
+3d arrays in javascript,deployment,0,train,curated_generated
+javascript,deployment,0,train,curated_generated
+train neural network,deployment,0,train,curated_generated
+opencv,deployment,0,train,curated_generated
+python scripting,deployment,0,train,curated_generated
+bug fixing,deployment,0,test,curated_generated
+git,deployment,0,train,curated_generated
+client-side scripting,deployment,0,test,curated_generated
+docker containers,docker,1,test,curated_generated
+containerization,docker,1,train,curated_generated
+docker,docker,1,test,curated_generated
+dockerfiles,docker,1,train,curated_generated
+sql joins,docker,0,train,curated_generated
+security,docker,0,train,curated_generated
+sql data manipulation,docker,0,train,curated_generated
+jsx,docker,0,test,curated_generated
+mysql,docker,0,test,curated_generated
+regression model,docker,0,train,curated_generated
+database queries,docker,0,train,curated_generated
+user experience,docker,0,train,curated_generated
+relational databases,docker,0,train,curated_generated
+ui/ux,docker,0,test,curated_generated
+sql,docker,0,train,curated_generated
+flask,docker,0,train,curated_generated
+component state,docker,0,train,curated_generated
+python3,docker,0,train,curated_generated
+figma,docker,0,train,curated_generated
+software testing,docker,0,test,curated_generated
+css grid,docker,0,train,curated_generated
+cloud infrastructure,docker,0,train,curated_generated
+k8s,kubernetes,1,train,curated_generated
+container orchestration,kubernetes,1,train,curated_generated
+kubernetes cluster,kubernetes,1,test,curated_generated
+kubernetes,kubernetes,1,train,curated_generated
+rest api,kubernetes,0,train,curated_generated
+postgresql,kubernetes,0,train,curated_generated
+ui/ux,kubernetes,0,test,curated_generated
+image recognition,kubernetes,0,train,curated_generated
+javascript,kubernetes,0,train,curated_generated
+3d arrays in java,kubernetes,0,train,curated_generated
+3d arrays in python,kubernetes,0,test,curated_generated
+git,kubernetes,0,train,curated_generated
+http endpoints,kubernetes,0,train,curated_generated
+cloud,kubernetes,0,test,curated_generated
+dbms,kubernetes,0,train,curated_generated
+netlify deployment,kubernetes,0,test,curated_generated
+github repositories,kubernetes,0,test,curated_generated
+python debugging,kubernetes,0,train,curated_generated
+scikit-learn,kubernetes,0,train,curated_generated
+docker,kubernetes,0,test,curated_generated
+flexbox,kubernetes,0,train,curated_generated
+dom,kubernetes,0,train,curated_generated
+machine learning,machine learning,1,train,curated_generated
+scikit-learn,machine learning,1,train,curated_generated
+train prediction model,machine learning,1,train,curated_generated
+ml,machine learning,1,train,curated_generated
+regression model,machine learning,1,train,curated_generated
+classification model,machine learning,1,train,curated_generated
+2d arrays in java,machine learning,0,train,curated_generated
+pytorch,machine learning,0,train,curated_generated
+authentication,machine learning,0,train,curated_generated
+crud queries,machine learning,0,train,curated_generated
+browser events,machine learning,0,train,curated_generated
+3d arrays in c,machine learning,0,train,curated_generated
+database queries,machine learning,0,train,curated_generated
+c programming,machine learning,0,test,curated_generated
+python scripting,machine learning,0,train,curated_generated
+semantic html,machine learning,0,train,curated_generated
+document object model,machine learning,0,train,curated_generated
+3d arrays in javascript,machine learning,0,train,curated_generated
+c debugging,machine learning,0,train,curated_generated
+docker,machine learning,0,test,curated_generated
+aws cloud,machine learning,0,test,curated_generated
+typescript,machine learning,0,train,curated_generated
+deploying applications,machine learning,0,train,curated_generated
+wireframes,machine learning,0,train,curated_generated
+machine learning,deep learning,1,train,curated_generated
+scikit-learn,deep learning,1,train,curated_generated
+train prediction model,deep learning,1,train,curated_generated
+regression model,deep learning,1,train,curated_generated
+train neural network,deep learning,1,train,curated_generated
+ml,deep learning,1,train,curated_generated
+deep learning,deep learning,1,test,curated_generated
+pytorch,deep learning,1,train,curated_generated
+neural networks,deep learning,1,train,curated_generated
+tensorflow,deep learning,1,train,curated_generated
+classification model,deep learning,1,train,curated_generated
+javascript backend,deep learning,0,train,curated_generated
+python3,deep learning,0,train,curated_generated
+qa,deep learning,0,train,curated_generated
+k8s,deep learning,0,train,curated_generated
+bug reporting,deep learning,0,train,curated_generated
+c debugging,deep learning,0,train,curated_generated
+semantic html,deep learning,0,train,curated_generated
+js,deep learning,0,train,curated_generated
+react,deep learning,0,train,curated_generated
+visual design,deep learning,0,test,curated_generated
+c,deep learning,0,train,curated_generated
+responsive styling,deep learning,0,test,curated_generated
+opencv,deep learning,0,train,curated_generated
+publish website,deep learning,0,train,curated_generated
+web storage,deep learning,0,train,curated_generated
+c++,deep learning,0,train,curated_generated
+jsx,deep learning,0,test,curated_generated
+deploying applications,deep learning,0,train,curated_generated
+dom manipulation,deep learning,0,train,curated_generated
+node.js,deep learning,0,train,curated_generated
+python flask,deep learning,0,train,curated_generated
+data manipulation in dbms,deep learning,0,train,curated_generated
+github repositories,deep learning,0,test,curated_generated
+computer vision,deep learning,0,train,curated_generated
+usability,deep learning,0,train,curated_generated
+git commits,deep learning,0,train,curated_generated
+css,deep learning,0,train,curated_generated
+docker,deep learning,0,test,curated_generated
+deployment,deep learning,0,train,curated_generated
+2d arrays in c++,deep learning,0,train,curated_generated
+testing,deep learning,0,train,curated_generated
+api development,deep learning,0,train,curated_generated
+figma,deep learning,0,train,curated_generated
+machine learning,computer vision,1,train,curated_generated
+scikit-learn,computer vision,1,train,curated_generated
+train prediction model,computer vision,1,train,curated_generated
+object detection,computer vision,1,train,curated_generated
+regression model,computer vision,1,train,curated_generated
+image classification,computer vision,1,test,curated_generated
+opencv,computer vision,1,train,curated_generated
+ml,computer vision,1,train,curated_generated
+image recognition,computer vision,1,train,curated_generated
+classification model,computer vision,1,train,curated_generated
+computer vision,computer vision,1,train,curated_generated
+java programming,computer vision,0,train,curated_generated
+train neural network,computer vision,0,train,curated_generated
+docker containers,computer vision,0,test,curated_generated
+matrix operations in c,computer vision,0,test,curated_generated
+secure login,computer vision,0,train,curated_generated
+git branches,computer vision,0,test,curated_generated
+ts,computer vision,0,train,curated_generated
+3d arrays in java,computer vision,0,train,curated_generated
+3d arrays in c,computer vision,0,train,curated_generated
+java,computer vision,0,train,curated_generated
+crud queries,computer vision,0,train,curated_generated
+data manipulation in dbms,computer vision,0,train,curated_generated
+rest api,computer vision,0,train,curated_generated
+javascript,computer vision,0,train,curated_generated
+html,computer vision,0,train,curated_generated
+html layout,computer vision,0,train,curated_generated
+2d arrays in c,computer vision,0,train,curated_generated
+qa,computer vision,0,train,curated_generated
+web page markup,computer vision,0,train,curated_generated
+python debugging,computer vision,0,train,curated_generated
+javascript debugging,computer vision,0,train,curated_generated
+wireframes,computer vision,0,train,curated_generated
+user experience,computer vision,0,train,curated_generated
+sql joins,computer vision,0,train,curated_generated
+netlify deployment,computer vision,0,test,curated_generated
+python flask,computer vision,0,train,curated_generated
+finding errors in javascript,computer vision,0,train,curated_generated
+2d arrays in python,computer vision,0,train,curated_generated
+figma,computer vision,0,train,curated_generated
+test cases,computer vision,0,train,curated_generated
+deployment,computer vision,0,train,curated_generated
+restful services,computer vision,0,test,curated_generated
+java debugging,computer vision,0,train,curated_generated
+python debugging,flask,1,train,curated_generated
+python flask,flask,1,train,curated_generated
+rest api,flask,1,train,curated_generated
+python scripting,flask,1,train,curated_generated
+flask rest api,flask,1,train,curated_generated
+finding errors in python,flask,1,train,curated_generated
+2d arrays in python,flask,1,train,curated_generated
+3d arrays in python,flask,1,test,curated_generated
+http endpoints,flask,1,train,curated_generated
+python3,flask,1,train,curated_generated
+python arrays,flask,1,train,curated_generated
+api development,flask,1,train,curated_generated
+flask,flask,1,train,curated_generated
+backend integration,flask,1,test,curated_generated
+restful services,flask,1,test,curated_generated
+flask backend,flask,1,train,curated_generated
+python,flask,1,train,curated_generated
+dom manipulation,flask,0,train,curated_generated
+authentication,flask,0,train,curated_generated
+user interface design,flask,0,train,curated_generated
+ml,flask,0,train,curated_generated
+js,flask,0,train,curated_generated
+qa,flask,0,train,curated_generated
+sql joins,flask,0,train,curated_generated
+figma,flask,0,train,curated_generated
+deployment,flask,0,train,curated_generated
+node.js,flask,0,train,curated_generated
+node backend,flask,0,train,curated_generated
+cpp,flask,0,train,curated_generated
+classification model,flask,0,train,curated_generated
+express server,flask,0,train,curated_generated
+postgresql,flask,0,train,curated_generated
+netlify deployment,flask,0,test,curated_generated
+nodejs,flask,0,test,curated_generated
+browser events,flask,0,train,curated_generated
+cloud computing,flask,0,test,curated_generated
+troubleshooting code,flask,0,train,curated_generated
+version control,flask,0,train,curated_generated
+responsive design,flask,0,train,curated_generated
+container orchestration,flask,0,train,curated_generated
+component state,flask,0,train,curated_generated
+regression model,flask,0,train,curated_generated
+dbms,flask,0,train,curated_generated
+mysql,flask,0,test,curated_generated
+dom,flask,0,train,curated_generated
+docker containers,flask,0,test,curated_generated
+c language,flask,0,train,curated_generated
+relational databases,flask,0,train,curated_generated
+sql data manipulation,flask,0,train,curated_generated
+finding errors,flask,0,test,curated_generated
+train prediction model,flask,0,train,curated_generated
+2d arrays in javascript,flask,0,train,curated_generated
+relational database design,flask,0,train,curated_generated
+c debugging,flask,0,train,curated_generated
+client-side scripting,flask,0,test,curated_generated
+publish website,flask,0,train,curated_generated
+3d arrays in c++,flask,0,train,curated_generated
+browser events,flask,0,train,curated_generated
+document object model,flask,0,train,curated_generated
+react user interface,flask,0,train,curated_generated
+c,flask,0,train,curated_generated
+css3,flask,0,train,curated_generated
+react,flask,0,train,curated_generated
+2d arrays in c++,flask,0,train,curated_generated
+git commits,flask,0,train,curated_generated
+flexbox,flask,0,train,curated_generated
+authorization,flask,0,train,curated_generated
+cloud,flask,0,test,curated_generated
+http endpoints,api,1,train,curated_generated
+rest api,api,1,train,curated_generated
+api development,api,1,train,curated_generated
+backend integration,api,1,test,curated_generated
+restful services,api,1,test,curated_generated
+java arrays,api,0,train,curated_generated
+figma,api,0,train,curated_generated
+cpp,api,0,train,curated_generated
+javascript,api,0,train,curated_generated
+github pages deployment,api,0,train,curated_generated
+domskill,api,0,train,curated_generated
+tensorflow,api,0,train,curated_generated
+localstorage,api,0,test,curated_generated
+data modeling,api,0,train,curated_generated
+c programming,api,0,test,curated_generated
+client-side scripting,api,0,test,curated_generated
+2d arrays in javascript,api,0,train,curated_generated
+browser events,api,0,train,curated_generated
+c++,api,0,train,curated_generated
+python arrays,api,0,train,curated_generated
+dom manipulation,api,0,train,curated_generated
+authentication,api,0,train,curated_generated
+web page markup,api,0,train,curated_generated
+web storage,node.js,1,train,curated_generated
+browser events,node.js,1,train,curated_generated
+ecmascript,node.js,1,train,curated_generated
+client-side scripting,node.js,1,test,curated_generated
+finding errors in javascript,node.js,1,train,curated_generated
+nodejs,node.js,1,test,curated_generated
+2d arrays in javascript,node.js,1,train,curated_generated
+browser storage,node.js,1,test,curated_generated
+http endpoints,node.js,1,train,curated_generated
+node.js,node.js,1,train,curated_generated
+js,node.js,1,train,curated_generated
+dom manipulation,node.js,1,train,curated_generated
+backend integration,node.js,1,test,curated_generated
+javascript,node.js,1,train,curated_generated
+express server,node.js,1,train,curated_generated
+dom,node.js,1,train,curated_generated
+javascript backend,node.js,1,train,curated_generated
+restful services,node.js,1,test,curated_generated
+rest api,node.js,1,train,curated_generated
+event listeners,node.js,1,train,curated_generated
+api development,node.js,1,train,curated_generated
+document object model,node.js,1,train,curated_generated
+3d arrays in javascript,node.js,1,train,curated_generated
+domskill,node.js,1,train,curated_generated
+localstorage,node.js,1,test,curated_generated
+array methods,node.js,1,test,curated_generated
+node backend,node.js,1,train,curated_generated
+javascript debugging,node.js,1,train,curated_generated
+dbms,node.js,0,train,curated_generated
+c language,node.js,0,train,curated_generated
+flask rest api,node.js,0,train,curated_generated
+finding errors in python,node.js,0,train,curated_generated
+data manipulation in dbms,node.js,0,train,curated_generated
+crud queries,node.js,0,train,curated_generated
+deployment,node.js,0,train,curated_generated
+access control,node.js,0,train,curated_generated
+docker containers,node.js,0,test,curated_generated
+3d arrays in java,node.js,0,train,curated_generated
+styling web pages,node.js,0,test,curated_generated
+ui/ux,node.js,0,test,curated_generated
+python flask,node.js,0,train,curated_generated
+docker,node.js,0,test,curated_generated
+hosting,node.js,0,train,curated_generated
+css,node.js,0,train,curated_generated
+kubernetes,node.js,0,train,curated_generated
+ml,node.js,0,train,curated_generated
+media queries,node.js,0,test,curated_generated
+c++ programming,node.js,0,train,curated_generated
+web page markup,node.js,0,train,curated_generated
+functional testing,node.js,0,train,curated_generated
+reactjs,node.js,0,train,curated_generated
+tensorflow,node.js,0,train,curated_generated
+test cases,node.js,0,train,curated_generated
+git branches,node.js,0,test,curated_generated
+java debugging,node.js,0,train,curated_generated
+mysql,node.js,0,test,curated_generated
+opencv,node.js,0,train,curated_generated
+python arrays,node.js,0,train,curated_generated
+html,node.js,0,train,curated_generated
+cross browser testing,node.js,0,train,curated_generated
+git commits,node.js,0,train,curated_generated
+wireframes,node.js,0,train,curated_generated
+c programming,node.js,0,test,curated_generated
+pytorch,node.js,0,train,curated_generated
+cloud infrastructure,node.js,0,train,curated_generated
+cpp,node.js,0,train,curated_generated
+github repositories,node.js,0,test,curated_generated
+bug reporting,node.js,0,train,curated_generated
+css3,node.js,0,train,curated_generated
+qa,node.js,0,train,curated_generated
+react hooks,node.js,0,train,curated_generated
+java programming,node.js,0,train,curated_generated
+troubleshooting code,node.js,0,train,curated_generated
+sql data manipulation,node.js,0,train,curated_generated
+git,node.js,0,train,curated_generated
+flask backend,node.js,0,train,curated_generated
+react user interface,node.js,0,train,curated_generated
+relational database design,node.js,0,train,curated_generated
+java,node.js,0,train,curated_generated
+ts,node.js,0,train,curated_generated
+database queries,node.js,0,train,curated_generated
+database schema,node.js,0,train,curated_generated
+containerization,node.js,0,train,curated_generated
+security,node.js,0,train,curated_generated
+2d arrays in java,node.js,0,train,curated_generated
+sql joins,node.js,0,train,curated_generated
+responsive styling,node.js,0,test,curated_generated
+publish website,node.js,0,train,curated_generated
+python,node.js,0,train,curated_generated
+finding errors,node.js,0,test,curated_generated
+3d arrays in c,node.js,0,train,curated_generated
+netlify deployment,node.js,0,test,curated_generated
+secure login,node.js,0,train,curated_generated
+aws cloud,node.js,0,test,curated_generated
+deploying applications,node.js,0,train,curated_generated
+diagnosing software bugs,node.js,0,train,curated_generated
+3d arrays in c++,node.js,0,train,curated_generated
+classification model,node.js,0,train,curated_generated
+machine learning,node.js,0,train,curated_generated
+user interface design,node.js,0,train,curated_generated
+testing,node.js,0,train,curated_generated
+image recognition,node.js,0,train,curated_generated
+flexbox,node.js,0,train,curated_generated
+dbms,node.js,0,train,curated_generated
+python debugging,node.js,0,train,curated_generated
+bug fixing,node.js,0,test,curated_generated
+train prediction model,node.js,0,train,curated_generated
+authentication,node.js,0,train,curated_generated
+c debugging,node.js,0,train,curated_generated
+scikit-learn,node.js,0,train,curated_generated
+c++ debugging,node.js,0,train,curated_generated
+python scripting,node.js,0,train,curated_generated
+cloud infrastructure,cloud,1,train,curated_generated
+cloud computing,cloud,1,test,curated_generated
+aws cloud,cloud,1,test,curated_generated
+cloud,cloud,1,test,curated_generated
+database,cloud,0,train,curated_generated
+browser events,cloud,0,train,curated_generated
+k8s,cloud,0,train,curated_generated
+relational databases,cloud,0,train,curated_generated
+media queries,cloud,0,test,curated_generated
+docker containers,cloud,0,test,curated_generated
+python debugging,cloud,0,train,curated_generated
+relational database design,cloud,0,train,curated_generated
+2d arrays in c++,cloud,0,train,curated_generated
+dbms,cloud,0,train,curated_generated
+java arrays,cloud,0,train,curated_generated
+http endpoints,cloud,0,train,curated_generated
+java programming,cloud,0,train,curated_generated
+object detection,cloud,0,train,curated_generated
+ecmascript,cloud,0,train,curated_generated
+classification model,cloud,0,train,curated_generated
+python,cloud,0,train,curated_generated
+dom,cloud,0,train,curated_generated
+secure login,security,1,train,curated_generated
+access control,security,1,train,curated_generated
+authorization,security,1,train,curated_generated
+authentication,security,1,train,curated_generated
+security,security,1,train,curated_generated
+matrix operations in c,security,0,test,curated_generated
+user experience,security,0,train,curated_generated
+kubernetes,security,0,train,curated_generated
+object detection,security,0,train,curated_generated
+docker,security,0,test,curated_generated
+git commits,security,0,train,curated_generated
+domskill,security,0,train,curated_generated
+browser events,security,0,train,curated_generated
+sql,security,0,train,curated_generated
+c,security,0,train,curated_generated
+ui/ux,security,0,test,curated_generated
+c debugging,security,0,train,curated_generated
+sqlite,security,0,test,curated_generated
+flask backend,security,0,train,curated_generated
+troubleshooting code,security,0,train,curated_generated
+image classification,security,0,test,curated_generated
+deep learning,security,0,test,curated_generated
+database schema,security,0,train,curated_generated
+kubernetes,docker,0,train,curated_generated
+sql optimization,basic sql,0,train,curated_generated
+figma,css,0,train,curated_generated
+git,react,0,train,curated_generated
+deployment,javascript,0,train,curated_generated
+medical diagnosis,machine learning,0,train,curated_generated
+python,java,0,train,curated_generated
+database administration,sql,0,train,curated_generated
+machine learning,python,0,train,curated_generated

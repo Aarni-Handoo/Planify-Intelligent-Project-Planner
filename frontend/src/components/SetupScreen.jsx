@@ -10,7 +10,7 @@ function SpinnerAarniHandoo24BCT0256() {
 }
 
 const SetupScreenAarniHandoo24BCT0256 = ({ project, setProject, members, setMembers, onStart, onBack, loading, loadMsg }) => {
-  const addMemberAarniHandoo24BCT0256 = () => setMembers(p => [...p, { id: uid(), name: "", skills: "" }]);
+  const addMemberAarniHandoo24BCT0256 = () => setMembers(p => [...p, { id: uid(), name: "", skills: "", daily_capacity: 5 }]);
   const removeMemberAarniHandoo24BCT0256 = id => setMembers(p => p.filter(m => m.id !== id));
   const updateMemberAarniHandoo24BCT0256 = (id, field, val) => setMembers(p => p.map(m => m.id === id ? { ...m, [field]: val } : m));
 
@@ -62,12 +62,16 @@ const SetupScreenAarniHandoo24BCT0256 = ({ project, setProject, members, setMemb
               <span style={S.memberIdx}>{i + 1}</span>
               <input style={{ ...S.input, flex: 1 }} placeholder="Name" value={m.name} onChange={e => updateMemberAarniHandoo24BCT0256(m.id, "name", e.target.value)} className="pp-input" />
               <input style={{ ...S.input, flex: 2 }} placeholder="Skills (React, Figma, Node, Backend…)" value={m.skills} onChange={e => updateMemberAarniHandoo24BCT0256(m.id, "skills", e.target.value)} className="pp-input" />
+              <label style={{ display: "flex", flexDirection: "column", gap: 4, minWidth: 110, flex: "0 0 125px", fontSize: 12, color: "#64748b" }}>
+                Hours available/day
+                <input type="number" min="0.5" max="24" step="0.5" required style={{ ...S.input, width: "100%", boxSizing: "border-box" }} value={m.daily_capacity ?? 5} onChange={e => updateMemberAarniHandoo24BCT0256(m.id, "daily_capacity", e.target.value)} className="pp-input" />
+              </label>
               {members.length > 1 && <button style={S.removeBtn} onClick={() => removeMemberAarniHandoo24BCT0256(m.id)} className="pp-remove-btn">✕</button>}
             </div>
           ))}
         </div>
 
-        <button style={S.generateBtn} onClick={onStart} disabled={loading} className="pp-launch-btn">
+        <button style={S.generateBtn} onClick={onStart} disabled={loading || members.some(m => m.name.trim() && (!Number.isFinite(Number(m.daily_capacity ?? 5)) || Number(m.daily_capacity ?? 5) < 0.5 || Number(m.daily_capacity ?? 5) > 24))} className="pp-launch-btn">
           {loading ? <span style={S.loadRow}><SpinnerAarniHandoo24BCT0256 /> {loadMsg}</span> : "Launch Planner 🧠"}
         </button>
       </div>

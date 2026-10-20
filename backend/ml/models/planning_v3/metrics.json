@@ -1,0 +1,11 @@
+{
+  "data_source": "synthetic scheduling scenarios and stochastic effort-overrun simulations",
+  "train_scenarios": 1200,
+  "heldout_scenarios": 400,
+  "positive_rate_heldout": 0.7325,
+  "accuracy": 0.8825,
+  "f1": 0.9171,
+  "roc_auc": 0.9462,
+  "brier": 0.0804,
+  "limitations": "Simulated labels only; risk probabilities not calibrated on actual projects."
+}
