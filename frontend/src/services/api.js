@@ -76,3 +76,12 @@ export async function recalculateSchedule(projectData) {
 
     return await response.json();
 }
+export async function planProject(payload) {
+    const response = await fetch(`${API_BASE_URL}/plan-project`, {
+        method: "POST", headers: {"Content-Type":"application/json"},
+        body: JSON.stringify(payload)
+    });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || "Planning failed");
+    return result;
+}

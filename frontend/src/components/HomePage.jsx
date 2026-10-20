@@ -46,14 +46,6 @@ const HomePageAarniHandoo24BCT0256 = ({ onNewProject, onJoinProject, loading, lo
         <div style={HS.navLinks}>
           <a href="#features" style={HS.navLink}> Features</a>
           <a href="#how"      style={HS.navLink}>How it works</a>
-          <a 
-            href="/resume.html"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={HS.navLink}
-          >
-          My Portfolio
-          </a>
         </div>
         <button onClick={onNewProject} style={HS.navCta} className="hp-btn">
           Plan a Project →

@@ -1,0 +1,1013 @@
+project_id,project_type,task_description,category,required_skills,skill_count,complexity,priority,estimated_hours,actual_hours,deadline_days,team_size,dependency,delay_hours
+10,Inventory Management,monitor and manage database performance,database,oracle,1,1,low,5,3,3,8,none,0
+10,Inventory Management,create a dynamic dashboard,frontend,vue,1,5,high,20,24,8,8,none,4
+10,Inventory Management,implement dark mode theme,frontend,css,1,2,low,10,9,2,8,none,0
+10,Inventory Management,data cleaning and preprocessing,data science,pandas,1,2,low,4,4,2,8,none,0
+10,Inventory Management,write unit tests,testing,cypress,1,2,low,5,9,2,8,none,4
+10,Inventory Management,create automated test cases,testing,selenium,1,3,high,6,5,5,8,implement dark mode theme,0
+10,Inventory Management,automate ui testing,testing,selenium,1,2,low,9,8,2,8,implement dark mode theme,0
+10,Inventory Management,develop rest api for user management,backend,spring boot,1,5,medium,21,26,11,8,none,5
+10,Inventory Management,improve website accessibility,frontend,ember.js,1,1,low,2,3,1,8,develop rest api for user management,1
+10,Inventory Management,implement caching mechanisms,backend,redis,1,2,medium,8,12,5,8,none,4
+10,Inventory Management,manage database operations,backend,"ruby,scala,rust,flask",4,3,high,14,17,5,8,none,3
+10,Inventory Management,implement user authentication,backend,"flask,go,node.js,api",4,1,medium,2,4,1,8,monitor and manage database performance,2
+10,Inventory Management,create reusable ui components,frontend,react,1,1,medium,5,3,1,8,manage database operations,0
+10,Inventory Management,perform security testing,testing,owasp,1,1,medium,5,3,1,8,create a dynamic dashboard,0
+10,Inventory Management,automate integration tests,testing,cypress,1,2,low,6,4,5,8,implement dark mode theme,0
+10,Inventory Management,perform end-to-end testing,testing,cypress,1,4,high,18,16,12,8,create a dynamic dashboard,0
+10,Inventory Management,create a responsive website,frontend,"css,vue,typescript,redux",4,5,high,10,10,14,8,implement user authentication,0
+10,Inventory Management,write integration tests,testing,junit,1,4,medium,14,13,6,8,implement caching mechanisms,0
+12,Social Media,create recommendation engine for products,ai/ml,scikit-learn,1,3,high,15,15,5,6,none,0
+12,Social Media,perform real-time anomaly detection on iot data,ai/ml,adtk,1,2,medium,9,11,3,6,none,2
+12,Social Media,conduct model drift analysis,ai/ml,alibi detect,1,2,low,10,13,5,6,none,3
+12,Social Media,build ai-powered resume screening tool,ai/ml,textblob,1,5,high,15,17,8,6,none,2
+12,Social Media,deploy app on aws,cloud,"aws,firebase,azure,heroku",4,4,high,19,21,9,6,none,2
+12,Social Media,write integration tests,testing,junit,1,5,high,24,31,5,6,create recommendation engine for products,7
+12,Social Media,implement document retrieval model for search engines,ai/ml,bm25,1,2,low,10,11,3,6,none,1
+12,Social Media,train image captioning model,ai/ml,show and tell,1,5,high,10,8,8,6,none,0
+12,Social Media,build automated scoring system for quizzes,ai/ml,gpt-3,1,4,high,12,20,5,6,none,8
+12,Social Media,create reusable ui components,frontend,react,1,2,medium,10,11,2,6,none,1
+12,Social Media,migrate services to azure,cloud,aws,1,4,high,16,17,8,6,none,1
+12,Social Media,implement regression model for sales prediction,ai/ml,linear regression,1,2,low,5,6,2,6,none,1
+18,Social Media,implement key phrase extraction from text,ai/ml,rake,1,2,medium,7,10,3,4,none,3
+18,Social Media,build text summarization model,ai/ml,bert,1,4,high,9,7,4,4,none,0
+18,Social Media,implement style transfer for images,ai/ml,neuralstyle,1,5,high,13,12,10,4,none,0
+18,Social Media,implement product categorization model,ai/ml,bert,1,2,medium,6,8,2,4,none,2
+18,Social Media,train model for text-to-image generation,ai/ml,dall-e,1,5,high,11,15,9,4,none,4
+18,Social Media,conduct real-time text translation,ai/ml,marianmt,1,1,medium,4,6,3,4,none,2
+18,Social Media,develop a chatbot with emotion detection,ai/ml,transformer,1,5,medium,15,14,15,4,none,0
+18,Social Media,deploy model for real-time predictions,ai/ml,docker,1,1,medium,4,3,1,4,none,0
+18,Social Media,create anomaly detection for cybersecurity logs,ai/ml,pycaret,1,4,high,18,20,11,4,none,2
+18,Social Media,train multi-label classification model,ai/ml,scikit-multilearn,1,1,low,5,5,2,4,none,0
+18,Social Media,conduct model drift analysis,ai/ml,alibi detect,1,2,medium,4,6,2,4,none,2
+18,Social Media,conduct audio sentiment analysis using speech patterns,ai/ml,praat,1,1,medium,3,4,1,4,none,1
+18,Social Media,set up selenium for browser tests,testing,"junit,mocha,selenium",3,3,high,14,17,5,4,none,3
+24,Inventory Management,improve website accessibility,frontend,"ui,vue,foundation,html",4,4,high,14,13,10,4,none,0
+24,Inventory Management,automate integration tests,testing,testing library,1,5,high,24,30,6,4,improve website accessibility,6
+24,Inventory Management,build interactive forms,frontend,typescript,1,4,medium,11,13,5,4,none,2
+24,Inventory Management,set up database backup and restore protocols,database,mongodb,1,3,medium,8,14,7,4,none,6
+24,Inventory Management,write unit tests for apis,testing,pytest,1,1,low,2,4,1,4,build interactive forms,2
+24,Inventory Management,design database schema for user profiles,database,mysql,1,4,high,20,25,11,4,none,5
+24,Inventory Management,create a responsive website,frontend,"typescript,ember.js,html",3,4,medium,8,13,8,4,none,5
+24,Inventory Management,perform load testing,testing,mocha,1,4,high,16,19,8,4,none,3
+25,Project Management,set up database backup and restore protocols,database,mongodb,1,1,medium,4,5,2,8,none,1
+25,Project Management,design for accessibility,ui/ux design,wcag,1,5,high,20,21,13,8,none,1
+25,Project Management,set up kubernetes clusters,devops,"kubernetes,docker,bash",3,2,medium,7,7,5,8,none,0
+25,Project Management,set up ci/cd pipeline,devops,terraform,1,4,high,8,16,10,8,none,8
+25,Project Management,implement user authentication,backend,"node.js,c++",2,5,medium,24,34,12,8,set up database backup and restore protocols,10
+25,Project Management,conduct performance testing,testing,jmeter,1,3,high,11,9,3,8,none,0
+25,Project Management,manage database operations,backend,spring boot,1,3,medium,10,11,8,8,none,1
+25,Project Management,develop rest api for user management,backend,spring boot,1,2,medium,4,3,5,8,set up database backup and restore protocols,0
+25,Project Management,develop restful apis,backend,node.js,1,2,low,7,8,6,8,set up database backup and restore protocols,1
+25,Project Management,optimize database queries for performance,backend,sql,1,2,low,9,13,5,8,set up database backup and restore protocols,4
+25,Project Management,implement dark mode theme,frontend,css,1,5,high,18,24,14,8,optimize database queries for performance,6
+25,Project Management,test frontend components,testing,jest,1,4,medium,14,14,10,8,manage database operations,0
+25,Project Management,integrate third-party services,backend,flask,1,5,high,10,8,12,8,none,0
+25,Project Management,create a dynamic dashboard,frontend,vue,1,2,low,8,9,4,8,manage database operations,1
+25,Project Management,implement ci/cd workflows,devops,gitlab,1,2,low,10,9,4,8,manage database operations,0
+25,Project Management,create test cases for api,testing,"jest,junit,pytest",3,1,low,3,3,3,8,optimize database queries for performance,0
+25,Project Management,implement caching mechanisms,backend,redis,1,3,medium,12,13,4,8,set up database backup and restore protocols,1
+25,Project Management,automate deployment process,devops,"puppet,ansible,docker,jenkins",4,5,high,20,19,9,8,none,0
+26,Project Management,implement user authentication,backend,"flask,laravel",2,5,high,19,29,15,3,none,10
+26,Project Management,implement dark mode theme,frontend,css,1,3,medium,12,13,4,3,implement user authentication,1
+26,Project Management,set up continuous integration for testing,testing,jenkins,1,3,medium,11,10,9,3,implement dark mode theme,0
+26,Project Management,manage infrastructure with terraform,devops,"ci/cd,jenkins,monitoring",3,5,medium,12,14,9,3,implement user authentication,2
+26,Project Management,monitor and manage database performance,database,oracle,1,1,low,3,3,2,3,none,0
+26,Project Management,optimize website for seo,frontend,html,1,5,medium,21,19,13,3,none,0
+26,Project Management,create data caching mechanism,backend,redis,1,3,high,8,11,7,3,none,3
+26,Project Management,improve website accessibility,frontend,"ember.js,redux,typescript",3,5,high,13,12,14,3,create data caching mechanism,0
+26,Project Management,create a dynamic dashboard,frontend,vue,1,5,high,15,23,10,3,none,8
+26,Project Management,configure load balancer,devops,kubernetes,1,1,low,4,4,2,3,improve website accessibility,0
+26,Project Management,automate deployment process,devops,"jenkins,monitoring,kubernetes,terraform",4,2,low,8,7,6,3,none,0
+34,Education,implement a landing page,frontend,"bootstrap,redux,html,ui",4,2,low,8,7,2,3,none,0
+34,Education,implement authentication mechanisms,backend,jwt,1,1,medium,3,5,3,3,none,2
+34,Education,optimize website for seo,frontend,html,1,3,high,10,10,9,3,none,0
+34,Education,perform end-to-end testing,testing,cypress,1,4,high,8,7,12,3,implement a landing page,0
+34,Education,write unit tests for apis,testing,pytest,1,1,low,2,2,1,3,implement a landing page,0
+34,Education,develop an api,backend,c++,1,2,low,8,11,5,3,none,3
+34,Education,create wireframes and prototypes,ui/ux design,figma,1,2,medium,5,4,3,3,none,0
+34,Education,optimize server performance,backend,"database,java",2,3,high,8,13,7,3,none,5
+34,Education,create reusable ui components,frontend,react,1,4,high,13,19,6,3,none,6
+34,Education,implement authentication and authorization,backend,jwt,1,1,medium,2,4,3,3,none,2
+34,Education,optimize indexing for faster searches,database,elasticsearch,1,3,medium,11,10,8,3,none,0
+34,Education,create a dynamic dashboard,frontend,vue,1,5,medium,16,16,6,3,optimize server performance,0
+34,Education,optimize database queries for performance,backend,sql,1,5,high,12,10,6,3,none,0
+34,Education,manage database operations,backend,"php,java,ruby,flask",4,1,low,4,2,3,3,optimize indexing for faster searches,0
+34,Education,set up database backup and restore protocols,database,mongodb,1,5,medium,24,29,15,3,none,5
+34,Education,add animations to improve ux,frontend,gsap,1,3,high,9,8,9,3,optimize database queries for performance,0
+40,Booking System,set up selenium for browser tests,testing,"chai,selenium,junit,testing library",4,4,high,13,15,12,7,none,2
+40,Booking System,run performance tests,testing,"junit,chai,cypress,testing library",4,3,high,14,20,5,7,none,6
+40,Booking System,design database schema for user profiles,database,mysql,1,1,low,4,6,2,7,none,2
+40,Booking System,optimize database queries,backend,sql,1,1,medium,2,3,3,7,none,1
+40,Booking System,optimize database queries for performance,backend,sql,1,4,medium,18,24,9,7,none,6
+40,Booking System,perform load testing,testing,"pytest,mocha,chai,selenium",4,4,medium,16,20,9,7,optimize database queries,4
+40,Booking System,monitor cloud services,cloud,google cloud,1,1,medium,3,4,1,7,optimize database queries for performance,1
+40,Booking System,create wireframes and prototypes,ui/ux design,figma,1,4,high,14,18,11,7,none,4
+40,Booking System,develop a mobile-first ui,frontend,"materialize,ux,css,user-friendly",4,5,high,11,19,5,7,optimize database queries,8
+40,Booking System,develop rest api for user management,backend,spring boot,1,1,low,3,2,2,7,none,0
+40,Booking System,build a microservice,backend,c++,1,4,high,15,23,11,7,design database schema for user profiles,8
+40,Booking System,set up firebase for app hosting,cloud,"aws,azure,heroku",3,3,medium,14,14,7,7,develop rest api for user management,0
+40,Booking System,create automated test cases,testing,selenium,1,1,medium,3,5,3,7,optimize database queries,2
+40,Booking System,develop restful apis,backend,node.js,1,3,high,6,8,3,7,set up firebase for app hosting,2
+40,Booking System,automate deployment to heroku,cloud,heroku,1,4,high,15,17,10,7,develop restful apis,2
+40,Booking System,improve website accessibility,frontend,"user-friendly,html,ui",3,4,high,12,11,8,7,none,0
+40,Booking System,manage cloud resources,cloud,azure,1,4,high,16,17,6,7,optimize database queries for performance,1
+40,Booking System,implement accessibility standards,frontend,aria,1,4,medium,10,16,8,7,none,6
+47,Social Media,implement personality prediction from social media,ai/ml,liwc,1,1,medium,2,2,1,7,none,0
+47,Social Media,develop image colorization model,ai/ml,deoldify,1,5,medium,17,24,15,7,none,7
+47,Social Media,automate data augmentation for training images,ai/ml,augmentor,1,2,low,5,9,3,7,none,4
+47,Social Media,automate integration tests,testing,"testing library,selenium,cypress",3,2,medium,5,5,2,7,none,0
+47,Social Media,train model for autonomous driving,ai/ml,carla,1,5,high,24,30,10,7,none,6
+47,Social Media,design a convolutional neural network for object detection,ai/ml,yolo,1,2,low,9,8,4,7,none,0
+47,Social Media,implement sentiment analysis for feedback,ai/ml,nltk,1,5,high,20,20,7,7,none,0
+47,Social Media,implement voice cloning model,ai/ml,sv2tts,1,2,low,6,8,4,7,none,2
+47,Social Media,manage database operations,backend,"node.js,api",2,5,high,13,17,9,7,none,4
+47,Social Media,implement natural language processing for text analysis,ai/ml,spacy,1,5,high,14,18,15,7,none,4
+47,Social Media,build a time series forecasting model,ai/ml,prophet,1,4,medium,8,14,5,7,none,6
+47,Social Media,set up real-time object tracking in sports videos,ai/ml,opencv,1,3,medium,6,12,3,7,none,6
+47,Social Media,develop recommendation system based on user ratings,ai/ml,als,1,1,medium,4,6,2,7,none,2
+47,Social Media,set up data labeling workflow for supervised learning,ai/ml,labelbox,1,1,medium,4,3,3,7,none,0
+47,Social Media,develop deepfake detection model,ai/ml,xception,1,3,medium,10,11,5,7,none,1
+47,Social Media,design database schema for user profiles,database,mysql,1,4,medium,12,14,4,7,none,2
+47,Social Media,deploy application on aws,cloud,aws,1,2,low,8,6,4,7,manage database operations,0
+47,Social Media,train multi-label classification model,ai/ml,scikit-multilearn,1,4,high,18,19,10,7,none,1
+47,Social Media,implement noise reduction in audio files,ai/ml,wave-u-net,1,5,medium,13,15,8,7,none,2
+56,Education,develop a mobile-first ui,frontend,"vue,ember.js,angular",3,4,high,12,19,12,7,none,7
+56,Education,manage database operations,backend,"database,go",2,1,medium,5,6,3,7,none,1
+56,Education,implement user authentication,backend,"spring boot,python,database,django",4,2,medium,5,3,6,7,none,0
+56,Education,create a responsive website,frontend,"bootstrap,sass",2,2,low,9,7,5,7,manage database operations,0
+56,Education,implement caching mechanisms,backend,redis,1,2,low,5,8,5,7,none,3
+56,Education,create restful apis,backend,node.js,1,5,high,11,15,6,7,none,4
+56,Education,perform data migration to new schema,database,postgresql,1,5,high,23,26,12,7,none,3
+56,Education,perform end-to-end testing,testing,cypress,1,4,high,16,18,6,7,develop a mobile-first ui,2
+56,Education,test frontend components,testing,jest,1,1,medium,2,2,3,7,none,0
+56,Education,optimize web performance,frontend,typescript,1,5,medium,14,23,8,7,none,9
+56,Education,develop authentication system,backend,django,1,1,low,5,4,3,7,none,0
+56,Education,develop unit tests,testing,junit,1,4,high,18,21,8,7,manage database operations,3
+56,Education,create automated test cases,testing,selenium,1,5,high,14,12,12,7,implement caching mechanisms,0
+56,Education,implement authentication mechanisms,backend,jwt,1,3,medium,11,9,5,7,perform data migration to new schema,0
+56,Education,set up database backup and restore protocols,database,mongodb,1,3,medium,12,17,6,7,none,5
+57,Food Delivery,build a microservice,backend,"kotlin,database",2,2,medium,6,8,5,2,none,2
+57,Food Delivery,implement authentication and authorization,backend,jwt,1,1,low,2,4,1,2,none,2
+57,Food Delivery,implement user feedback,ui/ux design,sketch,1,2,medium,5,9,3,2,none,4
+57,Food Delivery,create a dynamic dashboard,frontend,vue,1,2,low,10,10,3,2,build a microservice,0
+57,Food Delivery,write integration tests,testing,junit,1,4,medium,19,25,7,2,build a microservice,6
+57,Food Delivery,manage database operations,backend,"flask,scala",2,3,high,15,13,9,2,none,0
+57,Food Delivery,implement responsive design,frontend,sass,1,4,high,18,22,10,2,implement user feedback,4
+57,Food Delivery,conduct user research,ui/ux design,usertesting,1,2,low,5,9,2,2,none,4
+57,Food Delivery,implement caching mechanisms,backend,redis,1,2,low,9,12,5,2,none,3
+57,Food Delivery,create wireframes and prototypes,ui/ux design,figma,1,2,medium,10,12,4,2,none,2
+57,Food Delivery,build interactive forms,frontend,typescript,1,5,high,24,22,9,2,none,0
+57,Food Delivery,integrate firebase authentication,cloud,firebase,1,2,low,5,9,5,2,none,4
+64,Education,create data caching mechanism,backend,redis,1,1,low,3,2,1,3,none,0
+64,Education,develop unit tests,testing,junit,1,4,high,8,9,6,3,create data caching mechanism,1
+64,Education,perform load testing,testing,"cypress,mocha",2,1,low,2,4,3,3,create data caching mechanism,2
+64,Education,implement authentication and authorization,backend,jwt,1,4,high,18,17,12,3,none,0
+64,Education,implement authentication mechanisms,backend,jwt,1,2,medium,6,6,3,3,none,0
+64,Education,create test cases for api,testing,"testing library,cypress",2,3,medium,15,20,8,3,implement authentication and authorization,5
+64,Education,create a responsive website,frontend,"ui,typescript",2,4,high,9,8,7,3,none,0
+64,Education,integrate external payment gateway,backend,node.js,1,2,medium,5,3,3,3,none,0
+64,Education,implement user feedback,ui/ux design,sketch,1,4,medium,12,17,12,3,none,5
+76,Food Delivery,integrate external payment gateway,backend,node.js,1,5,high,10,15,12,6,none,5
+76,Food Delivery,build a microservice architecture,backend,spring boot,1,1,low,4,4,2,6,none,0
+76,Food Delivery,create reusable ui components,frontend,react,1,3,high,11,10,3,6,build a microservice architecture,0
+76,Food Delivery,implement dark mode theme,frontend,css,1,2,medium,8,8,4,6,integrate external payment gateway,0
+76,Food Delivery,optimize database queries,backend,sql,1,1,medium,2,2,1,6,none,0
+76,Food Delivery,implement accessibility standards,frontend,aria,1,3,medium,12,17,4,6,build a microservice architecture,5
+76,Food Delivery,set up continuous integration for testing,testing,jenkins,1,4,medium,14,17,4,6,integrate external payment gateway,3
+76,Food Delivery,develop authentication system,backend,django,1,5,high,11,14,10,6,none,3
+76,Food Delivery,monitor and manage database performance,database,oracle,1,4,medium,8,13,12,6,none,5
+76,Food Delivery,integrate firebase authentication,cloud,firebase,1,5,high,13,11,7,6,none,0
+77,Social Media,monitor and manage database performance,database,oracle,1,1,low,4,3,3,3,none,0
+77,Social Media,optimize web performance,frontend,"vue,ember.js",2,4,high,16,20,4,3,none,4
+77,Social Media,build predictive model for user behavior,ai/ml,tensorflow,1,2,low,8,6,4,3,none,0
+77,Social Media,write unit tests for apis,testing,pytest,1,3,medium,7,10,6,3,optimize web performance,3
+77,Social Media,perform security testing,testing,owasp,1,3,high,6,9,4,3,build predictive model for user behavior,3
+77,Social Media,conduct multilingual sentiment analysis,ai/ml,polyglot,1,5,medium,16,19,6,3,none,3
+77,Social Media,set up end-to-end ml pipeline in production,ai/ml,kubeflow,1,3,medium,13,17,3,3,none,4
+77,Social Media,create anomaly detection for cybersecurity logs,ai/ml,pycaret,1,3,high,8,9,5,3,none,1
+77,Social Media,perform dimensionality reduction for high-dimensional data,ai/ml,pca,1,5,medium,13,18,13,3,none,5
+77,Social Media,implement audio processing for speech recognition,ai/ml,librosa,1,4,medium,17,17,12,3,none,0
+77,Social Media,implement user authentication,backend,java,1,3,high,11,16,9,3,monitor and manage database performance,5
+77,Social Media,build a generative adversarial network (gan),ai/ml,tensorflow-gan,1,2,medium,10,13,3,3,none,3
+77,Social Media,implement deepfake video generator,ai/ml,stylegan,1,5,high,21,25,8,3,none,4
+77,Social Media,implement product categorization model,ai/ml,bert,1,2,medium,10,10,3,3,none,0
+77,Social Media,implement document retrieval model for search engines,ai/ml,bm25,1,5,medium,25,24,7,3,none,0
+78,Banking,write unit tests for apis,testing,pytest,1,2,medium,8,10,2,3,none,2
+78,Banking,integrate firebase authentication,cloud,firebase,1,4,high,13,14,11,3,none,1
+78,Banking,manage infrastructure with terraform,devops,"bash,git,jenkins",3,1,medium,3,2,1,3,write unit tests for apis,0
+78,Banking,optimize website loading speed,frontend,webpack,1,3,medium,8,12,5,3,none,4
+78,Banking,ensure high availability of applications,devops,ansible,1,5,high,20,23,10,3,write unit tests for apis,3
+78,Banking,implement authentication and authorization,backend,jwt,1,5,high,20,19,15,3,integrate firebase authentication,0
+78,Banking,build interactive forms,frontend,typescript,1,5,high,13,12,8,3,implement authentication and authorization,0
+78,Banking,manage cloud infrastructure,devops,aws,1,1,low,5,5,1,3,write unit tests for apis,0
+78,Banking,optimize database queries for performance,backend,sql,1,2,medium,7,8,2,3,integrate firebase authentication,1
+78,Banking,implement container orchestration,devops,kubernetes,1,5,high,18,27,9,3,implement authentication and authorization,9
+78,Banking,develop rest api for user management,backend,spring boot,1,5,high,22,29,10,3,none,7
+78,Banking,implement cloud backup,cloud,aws,1,1,low,2,2,1,3,none,0
+78,Banking,perform end-to-end testing,testing,cypress,1,5,high,17,24,8,3,none,7
+78,Banking,implement user authentication,backend,"database,php,kotlin,spring boot",4,1,medium,2,4,2,3,none,2
+78,Banking,build a microservice,backend,"flask,asp.net,node.js,database",4,5,medium,23,23,12,3,integrate firebase authentication,0
+80,Healthcare,train time series model for demand forecasting,ai/ml,facebook prophet,1,5,high,20,20,8,6,none,0
+80,Healthcare,build language model for poetry generation,ai/ml,gpt-2 fine-tuning,1,4,high,13,13,5,6,none,0
+80,Healthcare,develop a mobile-first ui,frontend,"angular,materialize,css,ux",4,3,medium,15,16,7,6,none,1
+80,Healthcare,build personalized learning recommendation model,ai/ml,matrix factorization,1,5,high,15,23,12,6,none,8
+80,Healthcare,implement real-time object detection on video streams,ai/ml,yolov4,1,5,high,20,20,14,6,none,0
+80,Healthcare,perform statistical analysis,data science,r,1,5,medium,21,31,8,6,none,10
+80,Healthcare,implement face detection feature,ai/ml,opencv,1,3,medium,7,11,9,6,perform statistical analysis,4
+80,Healthcare,develop image colorization model,ai/ml,deoldify,1,3,high,7,8,4,6,none,1
+80,Healthcare,conduct audio sentiment analysis using speech patterns,ai/ml,praat,1,5,high,22,25,13,6,none,3
+83,Inventory Management,set up continuous integration for testing,testing,jenkins,1,2,low,5,7,4,8,none,2
+83,Inventory Management,optimize web performance,frontend,"vue,typescript",2,2,medium,10,10,3,8,none,0
+83,Inventory Management,optimize database queries for performance,backend,sql,1,4,high,8,8,11,8,none,0
+83,Inventory Management,create reusable ui components,frontend,react,1,3,medium,7,9,3,8,optimize database queries for performance,2
+83,Inventory Management,test frontend components,testing,jest,1,1,medium,5,5,3,8,none,0
+83,Inventory Management,implement caching mechanisms,backend,redis,1,1,low,5,4,1,8,none,0
+83,Inventory Management,manage database operations,backend,rust,1,5,high,24,31,8,8,none,7
+83,Inventory Management,build a recommendation engine,data science,python,1,3,medium,13,19,8,8,none,6
+83,Inventory Management,automate ui testing,testing,selenium,1,4,high,19,20,12,8,none,1
+87,Banking,write integration tests,testing,junit,1,3,medium,11,13,4,7,none,2
+87,Banking,set up continuous integration for testing,testing,jenkins,1,2,low,9,13,3,7,none,4
+87,Banking,automate deployment process,devops,"monitoring,docker",2,1,low,5,7,1,7,none,2
+87,Banking,migrate services to azure,cloud,"google cloud,azure",2,3,high,13,19,9,7,automate deployment process,6
+87,Banking,deploy application on aws,cloud,aws,1,5,high,10,16,7,7,none,6
+87,Banking,implement authentication and authorization,backend,jwt,1,2,medium,8,7,3,7,deploy application on aws,0
+87,Banking,improve website accessibility,frontend,"angular,vue",2,2,low,7,5,6,7,implement authentication and authorization,0
+87,Banking,integrate third-party services,backend,"python,spring boot,c",3,4,medium,9,8,11,7,deploy application on aws,0
+87,Banking,perform end-to-end testing,testing,cypress,1,1,low,3,3,1,7,none,0
+87,Banking,develop rest api for user management,backend,spring boot,1,2,medium,8,9,4,7,none,1
+87,Banking,optimize database queries,backend,sql,1,5,high,16,19,8,7,none,3
+87,Banking,monitor and manage database performance,database,oracle,1,2,low,10,9,4,7,none,0
+87,Banking,optimize indexing for faster searches,database,elasticsearch,1,2,low,7,6,5,7,none,0
+87,Banking,write unit tests,testing,jest,1,4,high,11,13,7,7,improve website accessibility,2
+91,Education,design for accessibility,ui/ux design,wcag,1,4,medium,14,22,10,5,none,8
+91,Education,automate integration tests,testing,"mocha,jest",2,2,low,5,6,4,5,none,1
+91,Education,create wireframes and prototypes,ui/ux design,figma,1,2,low,9,8,2,5,none,0
+91,Education,perform load testing,testing,"selenium,cypress,jest,junit",4,4,high,9,13,5,5,none,4
+91,Education,conduct user research,ui/ux design,usertesting,1,2,low,9,13,5,5,none,4
+91,Education,develop an api,backend,"kotlin,node.js,c",3,1,medium,2,1,2,5,none,0
+91,Education,create reusable ui components,frontend,react,1,4,high,17,16,9,5,design for accessibility,0
+91,Education,develop authentication system,backend,django,1,3,high,8,10,7,5,none,2
+91,Education,automate ui testing,testing,selenium,1,5,high,24,29,7,5,develop an api,5
+91,Education,improve website accessibility,frontend,"react,angular,vue,ux",4,2,medium,5,4,6,5,none,0
+91,Education,develop rest api for user management,backend,spring boot,1,5,medium,19,28,8,5,none,9
+91,Education,optimize server performance,backend,node.js,1,1,low,4,6,1,5,none,2
+91,Education,implement authentication and authorization,backend,jwt,1,5,high,25,29,7,5,none,4
+91,Education,build a microservice,backend,"c,php,go,python",4,4,high,14,19,7,5,none,5
+91,Education,perform end-to-end testing,testing,cypress,1,1,low,2,1,3,5,create reusable ui components,0
+91,Education,develop interactive designs,ui/ux design,adobe xd,1,4,high,13,14,4,5,none,1
+91,Education,develop unit tests,testing,junit,1,2,low,10,12,4,5,develop an api,2
+91,Education,create a responsive website,frontend,"ember.js,bootstrap,ui",3,5,medium,22,31,14,5,none,9
+91,Education,test frontend components,testing,jest,1,1,medium,5,4,2,5,improve website accessibility,0
+91,Education,implement authentication mechanisms,backend,jwt,1,3,high,8,7,7,5,none,0
+95,Banking,manage database operations,backend,"python,database,java",3,5,high,25,26,14,4,none,1
+95,Banking,test frontend components,testing,jest,1,2,low,8,10,5,4,manage database operations,2
+95,Banking,implement responsive design,frontend,sass,1,2,low,8,8,3,4,none,0
+95,Banking,write unit tests for apis,testing,pytest,1,5,high,16,25,9,4,manage database operations,9
+95,Banking,write integration tests,testing,junit,1,5,medium,14,21,5,4,none,7
+95,Banking,monitor and manage database performance,database,oracle,1,5,high,13,11,14,4,none,0
+95,Banking,set up database backup and restore protocols,database,mongodb,1,5,high,18,24,7,4,none,6
+95,Banking,optimize website for seo,frontend,html,1,5,high,12,12,9,4,none,0
+95,Banking,set up ci/cd pipeline,devops,git,1,4,medium,19,22,9,4,write unit tests for apis,3
+95,Banking,automate deployment to heroku,cloud,heroku,1,2,medium,8,12,2,4,manage database operations,4
+95,Banking,optimize indexing for faster searches,database,elasticsearch,1,1,medium,4,5,2,4,none,1
+95,Banking,design a landing page,frontend,angular,1,1,low,2,1,1,4,none,0
+95,Banking,conduct performance testing,testing,jmeter,1,4,high,19,23,12,4,optimize website for seo,4
+95,Banking,automate ui testing,testing,selenium,1,1,low,3,5,1,4,design a landing page,2
+95,Banking,automate ci/cd pipeline,devops,jenkins,1,5,high,21,19,11,4,automate ui testing,0
+95,Banking,perform data migration to new schema,database,postgresql,1,1,medium,5,7,2,4,none,2
+95,Banking,integrate third-party services,backend,flask,1,5,medium,20,30,12,4,none,10
+102,E-Commerce,create restful apis,backend,node.js,1,1,low,5,3,2,2,none,0
+102,E-Commerce,test frontend components,testing,jest,1,1,low,3,5,1,2,create restful apis,2
+102,E-Commerce,improve website accessibility,frontend,react,1,4,high,16,17,5,2,create restful apis,1
+102,E-Commerce,set up ci/cd pipeline,devops,"ci/cd,jenkins,ansible",3,4,high,17,18,7,2,improve website accessibility,1
+102,E-Commerce,create data caching mechanism,backend,redis,1,1,medium,3,4,2,2,none,1
+102,E-Commerce,automate integration tests,testing,"mocha,jest,testing library",3,3,medium,9,10,4,2,none,1
+102,E-Commerce,build a microservice,backend,"ruby,spring boot,java,scala",4,4,high,19,25,6,2,none,6
+102,E-Commerce,optimize website for seo,frontend,html,1,1,medium,2,1,3,2,create restful apis,0
+102,E-Commerce,automate ui testing,testing,selenium,1,4,medium,17,21,10,2,none,4
+102,E-Commerce,implement a landing page,frontend,"sass,ember.js,materialize",3,1,medium,4,3,1,2,build a microservice,0
+102,E-Commerce,set up selenium for browser tests,testing,"cypress,jest,mocha,selenium",4,5,medium,10,10,15,2,improve website accessibility,0
+102,E-Commerce,monitor system logs,devops,docker,1,5,high,13,23,11,2,automate integration tests,10
+102,E-Commerce,optimize indexing for faster searches,database,elasticsearch,1,5,medium,16,25,13,2,none,9
+102,E-Commerce,write unit tests,testing,"testing library,mocha",2,1,medium,4,6,2,2,none,2
+102,E-Commerce,optimize database queries for performance,backend,sql,1,3,medium,7,9,6,2,none,2
+102,E-Commerce,deploy application on aws,cloud,aws,1,4,high,17,21,4,2,create restful apis,4
+105,Project Management,create reusable ui components,frontend,react,1,2,low,4,6,6,8,none,2
+105,Project Management,monitor system logs and alerts,devops,prometheus,1,2,low,10,9,2,8,create reusable ui components,0
+105,Project Management,conduct user research,ui/ux design,usertesting,1,4,high,8,15,12,8,none,7
+105,Project Management,build a microservice,backend,kotlin,1,4,medium,20,22,7,8,none,2
+105,Project Management,implement responsive design,frontend,sass,1,2,medium,6,4,2,8,conduct user research,0
+105,Project Management,perform end-to-end testing,testing,cypress,1,5,medium,16,14,8,8,build a microservice,0
+105,Project Management,monitor and manage database performance,database,oracle,1,3,medium,11,14,6,8,none,3
+105,Project Management,optimize website for seo,frontend,html,1,5,medium,21,31,7,8,none,10
+105,Project Management,set up kubernetes clusters,devops,"kubernetes,ci/cd,monitoring,jenkins",4,2,medium,4,2,6,8,none,0
+105,Project Management,manage infrastructure with terraform,devops,bash,1,4,high,20,25,6,8,create reusable ui components,5
+105,Project Management,build scalable microservices,backend,docker,1,1,low,4,2,3,8,none,0
+114,Portfolio Website,build interactive forms,frontend,typescript,1,5,medium,10,15,15,6,none,5
+114,Portfolio Website,configure google cloud storage,cloud,"aws,firebase",2,2,medium,5,6,6,6,none,1
+114,Portfolio Website,manage cloud resources,cloud,azure,1,5,high,23,25,13,6,none,2
+114,Portfolio Website,develop interactive designs,ui/ux design,adobe xd,1,1,medium,5,4,1,6,none,0
+114,Portfolio Website,develop unit tests,testing,junit,1,1,medium,2,2,1,6,none,0
+114,Portfolio Website,create test cases for api,testing,"junit,mocha,chai",3,1,medium,5,4,2,6,build interactive forms,0
+114,Portfolio Website,migrate services to azure,cloud,azure,1,3,medium,10,10,9,6,none,0
+114,Portfolio Website,improve website accessibility,frontend,"css,sass,materialize",3,2,low,6,10,4,6,none,4
+114,Portfolio Website,test frontend components,testing,jest,1,3,medium,9,7,6,6,none,0
+114,Portfolio Website,perform security testing,testing,owasp,1,4,medium,13,20,11,6,none,7
+114,Portfolio Website,create reusable ui components,frontend,react,1,2,low,8,11,4,6,none,3
+114,Portfolio Website,implement cloud backup,cloud,"heroku,google cloud,azure",3,4,high,12,14,12,6,none,2
+114,Portfolio Website,design a user-friendly interface,frontend,"ember.js,jquery,html",3,1,medium,3,5,1,6,develop interactive designs,2
+114,Portfolio Website,set up firebase for app hosting,cloud,"azure,heroku,google cloud",3,2,low,10,11,4,6,none,1
+114,Portfolio Website,create a responsive website,frontend,"vue,jquery,materialize,foundation",4,1,low,4,4,2,6,none,0
+118,Banking,create data caching mechanism,backend,redis,1,4,medium,13,21,5,6,none,8
+118,Banking,configure docker containers,devops,docker,1,4,high,9,12,7,6,create data caching mechanism,3
+118,Banking,manage database operations,backend,"go,database,c,django",4,4,high,14,16,10,6,none,2
+118,Banking,write unit tests,testing,"jest,chai,selenium,pytest",4,1,low,2,3,1,6,none,1
+118,Banking,automate ui testing,testing,selenium,1,5,high,16,24,13,6,manage database operations,8
+118,Banking,create automated test cases,testing,selenium,1,4,high,15,17,9,6,manage database operations,2
+118,Banking,develop unit tests,testing,junit,1,1,low,3,4,2,6,create data caching mechanism,1
+118,Banking,perform load testing,testing,"mocha,junit,cypress,selenium",4,3,high,9,10,9,6,none,1
+118,Banking,implement caching mechanisms,backend,redis,1,5,medium,20,28,15,6,none,8
+127,Food Delivery,build a microservice architecture,backend,spring boot,1,5,high,18,27,11,6,none,9
+127,Food Delivery,set up selenium for browser tests,testing,"cypress,testing library,mocha",3,3,high,11,13,6,6,none,2
+127,Food Delivery,implement accessibility standards,frontend,aria,1,4,high,17,16,6,6,build a microservice architecture,0
+127,Food Delivery,develop unit tests,testing,junit,1,2,low,6,5,2,6,none,0
+127,Food Delivery,manage cloud resources,cloud,azure,1,4,high,15,19,4,6,build a microservice architecture,4
+127,Food Delivery,monitor and manage database performance,database,oracle,1,3,medium,14,12,3,6,none,0
+127,Food Delivery,implement user authentication,backend,"go,asp.net,rust,database",4,4,high,9,11,11,6,monitor and manage database performance,2
+127,Food Delivery,design for accessibility,ui/ux design,wcag,1,1,low,5,4,3,6,none,0
+127,Food Delivery,perform security testing,testing,owasp,1,2,medium,4,4,4,6,none,0
+127,Food Delivery,run performance tests,testing,"mocha,junit,selenium",3,5,high,23,26,5,6,none,3
+127,Food Delivery,conduct performance testing,testing,jmeter,1,2,low,4,2,2,6,implement user authentication,0
+127,Food Delivery,implement a landing page,frontend,"bootstrap,react,typescript",3,4,high,9,9,9,6,implement user authentication,0
+127,Food Delivery,implement responsive design,frontend,sass,1,3,medium,10,9,5,6,none,0
+127,Food Delivery,develop authentication system,backend,django,1,1,medium,2,2,1,6,manage cloud resources,0
+127,Food Delivery,create data caching mechanism,backend,redis,1,1,low,4,2,1,6,monitor and manage database performance,0
+127,Food Delivery,implement caching mechanisms,backend,redis,1,4,medium,14,16,7,6,none,2
+127,Food Delivery,integrate external payment gateway,backend,node.js,1,4,high,13,11,9,6,manage cloud resources,0
+133,Food Delivery,create restful apis,backend,node.js,1,1,low,5,7,3,4,none,2
+133,Food Delivery,manage database operations,backend,"go,scala",2,2,low,7,10,5,4,none,3
+133,Food Delivery,optimize database queries,backend,sql,1,5,high,13,16,7,4,none,3
+133,Food Delivery,monitor cloud services,cloud,google cloud,1,3,medium,15,21,9,4,create restful apis,6
+133,Food Delivery,create wireframes and prototypes,ui/ux design,figma,1,3,medium,6,11,9,4,none,5
+133,Food Delivery,design a landing page,frontend,angular,1,2,low,8,10,5,4,none,2
+133,Food Delivery,develop an api,backend,"c++,asp.net",2,3,high,6,9,8,4,none,3
+133,Food Delivery,migrate services to azure,cloud,google cloud,1,4,high,14,20,4,4,none,6
+133,Food Delivery,configure google cloud storage,cloud,"firebase,google cloud",2,3,medium,8,9,9,4,optimize database queries,1
+133,Food Delivery,conduct performance testing,testing,jmeter,1,2,medium,4,3,5,4,create restful apis,0
+133,Food Delivery,implement user feedback,ui/ux design,sketch,1,5,high,25,34,9,4,none,9
+133,Food Delivery,perform end-to-end testing,testing,cypress,1,3,high,11,17,9,4,create restful apis,6
+133,Food Delivery,implement a landing page,frontend,"angular,html,redux,materialize",4,3,high,12,16,9,4,implement user feedback,4
+133,Food Delivery,deploy application on aws,cloud,aws,1,2,low,9,10,2,4,optimize database queries,1
+133,Food Delivery,implement responsive design,frontend,sass,1,3,medium,7,8,8,4,manage database operations,1
+133,Food Delivery,optimize server performance,backend,"node.js,asp.net",2,5,high,10,20,11,4,migrate services to azure,10
+138,Banking,integrate external payment gateway,backend,node.js,1,1,medium,4,4,1,3,none,0
+138,Banking,integrate firebase authentication,cloud,firebase,1,2,low,7,11,4,3,none,4
+138,Banking,optimize website loading speed,frontend,webpack,1,3,high,6,9,6,3,none,3
+138,Banking,deploy app on aws,cloud,google cloud,1,5,high,12,15,10,3,integrate external payment gateway,3
+138,Banking,perform security testing,testing,owasp,1,5,medium,25,30,15,3,none,5
+138,Banking,develop a mobile-first ui,frontend,"sass,vue,redux,foundation",4,3,high,8,8,8,3,integrate external payment gateway,0
+138,Banking,write integration tests,testing,junit,1,1,low,3,2,2,3,integrate external payment gateway,0
+138,Banking,set up firebase for app hosting,cloud,"heroku,azure,google cloud,firebase",4,4,medium,11,10,8,3,integrate external payment gateway,0
+138,Banking,migrate services to azure,cloud,"heroku,aws",2,3,medium,12,17,9,3,integrate external payment gateway,5
+138,Banking,manage cloud services on heroku,cloud,"azure,google cloud,firebase,aws",4,1,medium,3,3,3,3,integrate external payment gateway,0
+138,Banking,implement server automation,devops,ansible,1,1,medium,4,4,2,3,none,0
+138,Banking,develop unit tests,testing,junit,1,3,high,6,7,4,3,develop a mobile-first ui,1
+138,Banking,automate ci/cd pipeline,devops,jenkins,1,3,medium,14,13,3,3,none,0
+138,Banking,perform load testing,testing,junit,1,5,high,15,20,7,3,develop a mobile-first ui,5
+138,Banking,configure google cloud storage,cloud,"azure,google cloud",2,5,high,12,19,5,3,integrate external payment gateway,7
+149,Banking,monitor server health,devops,"monitoring,prometheus",2,1,low,4,4,2,3,none,0
+149,Banking,optimize database queries,backend,sql,1,2,medium,5,4,3,3,none,0
+149,Banking,automate ui testing,testing,selenium,1,4,high,14,12,11,3,none,0
+149,Banking,implement authentication and authorization,backend,jwt,1,3,medium,10,8,5,3,none,0
+149,Banking,integrate firebase authentication,cloud,firebase,1,2,low,10,14,5,3,none,4
+149,Banking,optimize database queries for performance,backend,sql,1,4,medium,20,20,10,3,integrate firebase authentication,0
+149,Banking,monitor system logs,devops,docker,1,5,high,14,23,7,3,none,9
+149,Banking,write unit tests for apis,testing,pytest,1,2,medium,4,7,2,3,optimize database queries,3
+154,Social Media,conduct user research,ui/ux design,usertesting,1,2,low,6,9,6,8,none,3
+154,Social Media,build object tracking model for video analysis,ai/ml,sort,1,2,medium,9,9,2,8,none,0
+154,Social Media,migrate services to azure,cloud,"google cloud,heroku,firebase",3,5,high,14,20,15,8,none,6
+154,Social Media,build a generative adversarial network (gan),ai/ml,tensorflow-gan,1,4,high,19,25,9,8,none,6
+154,Social Media,build attention-based sequence model,ai/ml,transformer,1,3,medium,7,13,7,8,none,6
+154,Social Media,train model for image recognition,ai/ml,pytorch,1,3,high,13,17,8,8,none,4
+154,Social Media,set up end-to-end ml pipeline in production,ai/ml,kubeflow,1,1,low,4,3,2,8,none,0
+154,Social Media,implement user feedback,ui/ux design,sketch,1,3,medium,8,11,7,8,none,3
+154,Social Media,set up real-time recommendations on streaming data,ai/ml,apache flink,1,2,low,7,6,3,8,none,0
+154,Social Media,integrate firebase authentication,cloud,firebase,1,5,high,12,16,13,8,none,4
+154,Social Media,deploy ml model on mobile device,ai/ml,tensorflow lite,1,3,high,15,20,4,8,none,5
+154,Social Media,set up fraud detection system using anomaly detection,ai/ml,isolationforest,1,1,medium,3,4,2,8,none,1
+154,Social Media,design a user-friendly interface,frontend,"sass,ui",2,1,low,3,3,1,8,none,0
+154,Social Media,conduct clustering analysis for market segmentation,ai/ml,k-means,1,1,low,3,2,2,8,none,0
+154,Social Media,perform dimensionality reduction for high-dimensional data,ai/ml,pca,1,4,high,13,20,7,8,none,7
+154,Social Media,conduct disease prediction model for healthcare,ai/ml,logistic regression,1,3,medium,13,13,4,8,none,0
+154,Social Media,set up customer churn prediction model,ai/ml,xgboost,1,2,medium,4,5,6,8,none,1
+174,Booking System,create data caching mechanism,backend,redis,1,2,low,5,8,5,2,none,3
+174,Booking System,conduct performance testing,testing,jmeter,1,4,high,12,19,6,2,create data caching mechanism,7
+174,Booking System,build scalable microservices,backend,docker,1,3,medium,13,19,9,2,none,6
+174,Booking System,perform end-to-end testing,testing,cypress,1,3,medium,8,6,4,2,build scalable microservices,0
+174,Booking System,develop a mobile-first ui,frontend,"jquery,redux,ember.js,javascript",4,1,medium,4,6,3,2,none,2
+174,Booking System,optimize web performance,frontend,"react,html,ux,angular",4,4,high,9,9,9,2,none,0
+174,Booking System,develop restful apis,backend,node.js,1,5,high,11,20,5,2,none,9
+174,Booking System,manage cloud services on heroku,cloud,google cloud,1,3,high,7,6,8,2,build scalable microservices,0
+174,Booking System,manage cloud resources,cloud,azure,1,1,medium,4,2,3,2,build scalable microservices,0
+174,Booking System,configure google cloud storage,cloud,"firebase,heroku,google cloud,aws",4,4,medium,12,11,4,2,none,0
+181,Banking,implement authentication mechanisms,backend,jwt,1,5,high,11,17,9,5,none,6
+181,Banking,automate deployment pipelines,devops,ansible,1,3,high,12,13,3,5,none,1
+181,Banking,optimize database queries for performance,backend,sql,1,2,low,8,6,5,5,none,0
+181,Banking,automate deployment process,devops,kubernetes,1,5,high,15,14,10,5,implement authentication mechanisms,0
+181,Banking,automate ci/cd pipeline,devops,jenkins,1,2,medium,4,3,4,5,none,0
+181,Banking,develop unit tests,testing,junit,1,2,low,8,11,6,5,optimize database queries for performance,3
+181,Banking,implement container orchestration,devops,kubernetes,1,1,low,3,4,1,5,develop unit tests,1
+181,Banking,automate infrastructure provisioning,devops,terraform,1,1,medium,3,2,1,5,implement authentication mechanisms,0
+181,Banking,perform end-to-end testing,testing,cypress,1,3,medium,10,11,9,5,none,1
+181,Banking,automate integration tests,testing,"mocha,selenium",2,5,high,16,16,8,5,none,0
+183,E-Commerce,write integration tests,testing,junit,1,4,high,10,17,4,6,none,7
+183,E-Commerce,implement authentication mechanisms,backend,jwt,1,1,medium,2,4,1,6,none,2
+183,E-Commerce,ensure high availability of applications,devops,ansible,1,1,low,3,3,2,6,write integration tests,0
+183,E-Commerce,monitor server health,devops,"ansible,git,docker,monitoring",4,4,high,16,23,10,6,implement authentication mechanisms,7
+183,E-Commerce,design a user-friendly interface,frontend,"user-friendly,html,materialize",3,3,high,6,10,7,6,implement authentication mechanisms,4
+183,E-Commerce,add animations to improve ux,frontend,gsap,1,2,medium,10,9,2,6,none,0
+183,E-Commerce,manage cloud resources,cloud,azure,1,5,high,15,18,11,6,ensure high availability of applications,3
+183,E-Commerce,manage cloud infrastructure,devops,aws,1,1,low,4,3,2,6,none,0
+183,E-Commerce,automate deployment pipelines,devops,ansible,1,3,high,10,16,4,6,add animations to improve ux,6
+183,E-Commerce,monitor system logs and alerts,devops,prometheus,1,2,low,8,12,5,6,implement authentication mechanisms,4
+183,E-Commerce,develop restful apis,backend,node.js,1,1,low,2,3,1,6,manage cloud resources,1
+183,E-Commerce,automate ci/cd pipeline,devops,jenkins,1,2,low,5,6,4,6,design a user-friendly interface,1
+183,E-Commerce,automate integration tests,testing,"junit,chai",2,3,high,8,6,8,6,none,0
+183,E-Commerce,optimize indexing for faster searches,database,elasticsearch,1,2,low,7,6,5,6,none,0
+183,E-Commerce,perform end-to-end testing,testing,cypress,1,1,medium,4,4,3,6,implement authentication mechanisms,0
+183,E-Commerce,create automated test cases,testing,selenium,1,5,high,17,16,10,6,design a user-friendly interface,0
+183,E-Commerce,test frontend components,testing,jest,1,4,high,9,14,4,6,none,5
+183,E-Commerce,optimize database queries,backend,sql,1,2,medium,7,8,4,6,optimize indexing for faster searches,1
+195,E-Commerce,manage cloud infrastructure,devops,aws,1,3,medium,7,9,7,2,none,2
+195,E-Commerce,implement cloud backup,cloud,"aws,heroku",2,5,high,22,26,6,2,manage cloud infrastructure,4
+195,E-Commerce,implement caching mechanisms,backend,redis,1,5,high,21,27,6,2,implement cloud backup,6
+195,E-Commerce,automate deployment process,devops,"puppet,docker",2,1,low,3,4,3,2,implement caching mechanisms,1
+195,E-Commerce,automate deployment to heroku,cloud,heroku,1,3,medium,8,6,8,2,manage cloud infrastructure,0
+195,E-Commerce,implement a landing page,frontend,"user-friendly,typescript,ui",3,4,medium,8,10,8,2,implement caching mechanisms,2
+195,E-Commerce,set up firebase for app hosting,cloud,google cloud,1,3,high,13,17,9,2,manage cloud infrastructure,4
+195,E-Commerce,write unit tests,testing,"cypress,pytest,mocha,jest",4,3,medium,14,13,6,2,implement a landing page,0
+195,E-Commerce,monitor system logs,devops,docker,1,5,medium,16,14,10,2,none,0
+195,E-Commerce,perform load testing,testing,jest,1,4,high,10,12,9,2,implement caching mechanisms,2
+195,E-Commerce,optimize server performance,backend,"java,node.js,ruby",3,5,high,21,27,12,2,none,6
+195,E-Commerce,implement accessibility standards,frontend,aria,1,5,medium,20,29,5,2,optimize server performance,9
+195,E-Commerce,perform end-to-end testing,testing,cypress,1,1,low,4,5,3,2,implement caching mechanisms,1
+195,E-Commerce,monitor system logs and alerts,devops,prometheus,1,3,high,9,15,5,2,none,6
+195,E-Commerce,develop an api,backend,"kotlin,database,ruby,java",4,5,high,20,22,13,2,none,2
+195,E-Commerce,perform data migration to new schema,database,postgresql,1,2,medium,4,2,2,2,none,0
+204,Portfolio Website,write unit tests for apis,testing,pytest,1,5,high,24,27,12,6,none,3
+204,Portfolio Website,create automated test cases,testing,selenium,1,5,medium,11,15,5,6,none,4
+204,Portfolio Website,create a responsive website,frontend,"ember.js,ux,javascript",3,2,low,10,8,3,6,none,0
+204,Portfolio Website,implement dark mode theme,frontend,css,1,3,medium,6,7,7,6,none,1
+204,Portfolio Website,implement accessibility standards,frontend,aria,1,3,medium,7,8,8,6,none,1
+204,Portfolio Website,optimize website for seo,frontend,html,1,3,high,7,8,5,6,none,1
+204,Portfolio Website,perform security testing,testing,owasp,1,4,medium,15,13,4,6,optimize website for seo,0
+204,Portfolio Website,implement cloud backup,cloud,"google cloud,firebase",2,1,medium,4,6,1,6,none,2
+204,Portfolio Website,create a dynamic dashboard,frontend,vue,1,5,high,19,25,9,6,none,6
+204,Portfolio Website,deploy app on aws,cloud,"heroku,google cloud",2,5,high,18,16,10,6,none,0
+204,Portfolio Website,monitor cloud services,cloud,google cloud,1,1,medium,2,1,2,6,none,0
+204,Portfolio Website,set up selenium for browser tests,testing,"jest,junit,cypress",3,3,high,11,9,3,6,none,0
+204,Portfolio Website,build interactive forms,frontend,typescript,1,3,high,6,11,5,6,none,5
+204,Portfolio Website,perform end-to-end testing,testing,cypress,1,5,medium,15,21,8,6,create a dynamic dashboard,6
+204,Portfolio Website,add animations to improve ux,frontend,gsap,1,3,medium,9,10,6,6,none,1
+204,Portfolio Website,design for accessibility,ui/ux design,wcag,1,4,high,8,9,9,6,none,1
+204,Portfolio Website,configure google cloud storage,cloud,"aws,firebase,google cloud,heroku",4,2,medium,10,13,6,6,none,3
+204,Portfolio Website,deploy application on aws,cloud,aws,1,2,low,5,3,5,6,none,0
+204,Portfolio Website,set up continuous integration for testing,testing,jenkins,1,4,high,13,13,4,6,build interactive forms,0
+204,Portfolio Website,manage cloud resources,cloud,azure,1,1,low,4,2,1,6,none,0
+209,Inventory Management,implement authentication mechanisms,backend,jwt,1,4,high,16,24,11,7,none,8
+209,Inventory Management,run performance tests,testing,"testing library,jest,selenium,cypress",4,4,high,19,21,5,7,implement authentication mechanisms,2
+209,Inventory Management,perform data migration to new schema,database,postgresql,1,1,low,2,3,3,7,none,1
+209,Inventory Management,optimize website for seo,frontend,html,1,4,medium,20,22,7,7,implement authentication mechanisms,2
+209,Inventory Management,optimize website loading speed,frontend,webpack,1,5,high,19,25,10,7,none,6
+209,Inventory Management,integrate external payment gateway,backend,node.js,1,4,high,8,15,8,7,none,7
+209,Inventory Management,create automated test cases,testing,selenium,1,2,low,4,7,4,7,implement authentication mechanisms,3
+209,Inventory Management,develop an api,backend,"go,laravel",2,4,high,19,17,9,7,perform data migration to new schema,0
+209,Inventory Management,develop restful apis,backend,node.js,1,2,low,9,11,4,7,perform data migration to new schema,2
+209,Inventory Management,implement a landing page,frontend,"redux,bootstrap",2,5,high,10,12,14,7,none,2
+209,Inventory Management,perform statistical analysis,data science,r,1,2,medium,4,8,2,7,perform data migration to new schema,4
+209,Inventory Management,automate ui testing,testing,selenium,1,2,medium,8,10,4,7,integrate external payment gateway,2
+209,Inventory Management,develop unit tests,testing,junit,1,4,high,17,16,5,7,none,0
+209,Inventory Management,create a responsive website,frontend,"angular,user-friendly,ui",3,1,medium,4,2,2,7,none,0
+209,Inventory Management,build a microservice architecture,backend,spring boot,1,3,medium,8,8,6,7,perform data migration to new schema,0
+212,Healthcare,implement emotion recognition from audio samples,ai/ml,deepspeech,1,1,medium,4,2,3,5,none,0
+212,Healthcare,train model for entity recognition in healthcare,ai/ml,biobert,1,5,high,16,14,5,5,none,0
+212,Healthcare,train model for image segmentation,ai/ml,u-net,1,1,low,5,4,1,5,none,0
+212,Healthcare,monitor and manage database performance,database,oracle,1,3,medium,8,11,8,5,none,3
+212,Healthcare,build attention-based sequence model,ai/ml,transformer,1,2,low,10,12,4,5,none,2
+212,Healthcare,set up end-to-end ml pipeline in production,ai/ml,kubeflow,1,3,high,8,7,4,5,none,0
+212,Healthcare,create reusable ui components,frontend,react,1,4,high,19,19,12,5,none,0
+212,Healthcare,implement natural language processing for text analysis,ai/ml,spacy,1,3,high,15,17,5,5,none,2
+212,Healthcare,develop sentiment analysis model for movie reviews,ai/ml,bert,1,4,high,17,16,9,5,none,0
+212,Healthcare,conduct semantic similarity analysis,ai/ml,sentence-bert,1,5,high,14,19,15,5,none,5
+212,Healthcare,optimize database queries,backend,sql,1,4,high,20,24,10,5,none,4
+212,Healthcare,set up continuous integration for testing,testing,jenkins,1,3,high,14,20,3,5,none,6
+238,Project Management,optimize website for seo,frontend,html,1,3,medium,14,15,6,2,none,1
+238,Project Management,implement responsive design,frontend,sass,1,1,medium,4,6,3,2,none,2
+238,Project Management,build a microservice architecture,backend,spring boot,1,5,high,21,23,15,2,none,2
+238,Project Management,develop rest api for user management,backend,spring boot,1,1,medium,2,1,1,2,none,0
+238,Project Management,implement ci/cd workflows,devops,gitlab,1,1,medium,4,4,2,2,optimize website for seo,0
+238,Project Management,implement user feedback,ui/ux design,sketch,1,5,high,12,17,9,2,none,5
+238,Project Management,manage cloud infrastructure,devops,aws,1,4,high,11,18,10,2,none,7
+238,Project Management,optimize database queries for performance,backend,sql,1,5,high,21,21,8,2,none,0
+238,Project Management,implement accessibility standards,frontend,aria,1,1,low,2,4,3,2,implement user feedback,2
+238,Project Management,configure docker containers,devops,ci/cd,1,1,medium,4,5,2,2,develop rest api for user management,1
+239,Inventory Management,implement responsive design,frontend,sass,1,5,medium,17,23,5,3,none,6
+239,Inventory Management,optimize database queries for performance,backend,sql,1,3,medium,9,15,7,3,none,6
+239,Inventory Management,perform statistical analysis,data science,r,1,3,high,6,11,6,3,none,5
+239,Inventory Management,design a landing page,frontend,angular,1,4,high,11,9,5,3,optimize database queries for performance,0
+239,Inventory Management,create automated test cases,testing,selenium,1,4,medium,16,16,11,3,none,0
+239,Inventory Management,set up selenium for browser tests,testing,"pytest,jest,testing library,selenium",4,5,medium,22,31,7,3,none,9
+239,Inventory Management,implement accessibility standards,frontend,aria,1,5,high,17,19,6,3,optimize database queries for performance,2
+239,Inventory Management,set up database backup and restore protocols,database,mongodb,1,1,medium,5,7,1,3,none,2
+239,Inventory Management,monitor and manage database performance,database,oracle,1,2,low,7,7,5,3,none,0
+239,Inventory Management,write unit tests for apis,testing,pytest,1,1,low,3,1,2,3,implement responsive design,0
+239,Inventory Management,create a dynamic dashboard,frontend,vue,1,1,medium,4,4,2,3,none,0
+239,Inventory Management,visualize data insights,data science,tableau,1,3,medium,15,19,5,3,monitor and manage database performance,4
+239,Inventory Management,perform load testing,testing,"pytest,junit,chai,testing library",4,1,medium,2,4,3,3,none,2
+239,Inventory Management,develop an api,backend,"django,asp.net",2,1,medium,5,4,2,3,none,0
+267,Banking,create automated test cases,testing,selenium,1,4,high,12,12,4,6,none,0
+267,Banking,automate infrastructure provisioning,devops,terraform,1,4,high,11,16,5,6,create automated test cases,5
+267,Banking,manage cloud services on heroku,cloud,"azure,heroku,google cloud",3,3,medium,9,11,5,6,automate infrastructure provisioning,2
+267,Banking,manage infrastructure with terraform,devops,kubernetes,1,3,high,7,13,4,6,none,6
+267,Banking,create a responsive website,frontend,bootstrap,1,2,low,10,14,4,6,none,4
+267,Banking,optimize website for seo,frontend,html,1,5,medium,13,13,9,6,none,0
+267,Banking,migrate services to azure,cloud,"google cloud,firebase,aws",3,1,low,3,5,1,6,none,2
+267,Banking,implement authentication mechanisms,backend,jwt,1,1,medium,2,4,1,6,none,2
+269,Booking System,build interactive forms,frontend,typescript,1,5,medium,13,18,7,8,none,5
+269,Booking System,build a microservice,backend,asp.net,1,5,high,21,19,6,8,none,0
+269,Booking System,set up continuous integration for testing,testing,jenkins,1,2,medium,4,6,5,8,build a microservice,2
+269,Booking System,optimize website for seo,frontend,html,1,5,high,22,29,13,8,build a microservice,7
+269,Booking System,design database schema for user profiles,database,mysql,1,4,high,20,18,6,8,none,0
+269,Booking System,write unit tests,testing,"mocha,selenium,chai,testing library",4,5,high,16,24,12,8,optimize website for seo,8
+269,Booking System,create automated test cases,testing,selenium,1,4,high,14,17,9,8,none,3
+269,Booking System,develop restful apis,backend,node.js,1,5,high,17,22,6,8,design database schema for user profiles,5
+269,Booking System,implement authentication and authorization,backend,jwt,1,5,medium,16,19,5,8,none,3
+269,Booking System,manage cloud services on heroku,cloud,"aws,google cloud",2,2,low,9,12,2,8,build a microservice,3
+269,Booking System,integrate third-party services,backend,"kotlin,flask,python,php",4,1,medium,3,2,2,8,none,0
+269,Booking System,develop rest api for user management,backend,spring boot,1,1,medium,2,2,2,8,manage cloud services on heroku,0
+269,Booking System,conduct performance testing,testing,jmeter,1,5,high,12,19,8,8,none,7
+269,Booking System,implement authentication mechanisms,backend,jwt,1,1,medium,2,1,2,8,manage cloud services on heroku,0
+272,Portfolio Website,set up continuous integration for testing,testing,jenkins,1,3,medium,6,9,4,7,none,3
+272,Portfolio Website,test frontend components,testing,jest,1,2,low,6,6,2,7,none,0
+272,Portfolio Website,perform load testing,testing,"selenium,jest,mocha,junit",4,1,low,3,3,1,7,none,0
+272,Portfolio Website,develop unit tests,testing,junit,1,3,high,10,16,7,7,none,6
+272,Portfolio Website,conduct performance testing,testing,jmeter,1,2,medium,10,8,4,7,none,0
+272,Portfolio Website,implement responsive design,frontend,sass,1,4,medium,8,6,9,7,none,0
+272,Portfolio Website,implement cloud backup,cloud,"google cloud,firebase",2,1,medium,2,2,2,7,none,0
+272,Portfolio Website,create a dynamic dashboard,frontend,vue,1,5,high,25,35,7,7,none,10
+272,Portfolio Website,deploy app on aws,cloud,"google cloud,heroku",2,1,low,4,3,3,7,none,0
+281,Inventory Management,implement a landing page,frontend,user-friendly,1,1,low,4,2,2,5,none,0
+281,Inventory Management,create a dynamic dashboard,frontend,vue,1,5,high,21,27,13,5,none,6
+281,Inventory Management,write unit tests for apis,testing,pytest,1,2,low,4,6,2,5,none,2
+281,Inventory Management,create restful apis,backend,node.js,1,1,low,3,2,1,5,none,0
+281,Inventory Management,perform security testing,testing,owasp,1,5,medium,10,15,9,5,none,5
+281,Inventory Management,improve website accessibility,frontend,"react,ui,materialize,html",4,3,high,15,13,6,5,create restful apis,0
+281,Inventory Management,run performance tests,testing,"mocha,cypress,junit,jest",4,1,medium,3,3,1,5,none,0
+281,Inventory Management,optimize website loading speed,frontend,webpack,1,4,high,9,14,9,5,none,5
+291,E-Commerce,automate infrastructure provisioning,devops,terraform,1,4,high,15,18,9,7,none,3
+291,E-Commerce,set up continuous integration for testing,testing,jenkins,1,3,high,8,11,4,7,none,3
+291,E-Commerce,design a landing page,frontend,angular,1,4,high,11,16,10,7,none,5
+291,E-Commerce,implement user authentication,backend,"ruby,php",2,2,medium,6,8,5,7,none,2
+291,E-Commerce,implement user feedback,ui/ux design,sketch,1,1,medium,4,3,3,7,none,0
+291,E-Commerce,automate ci/cd pipeline,devops,jenkins,1,4,medium,11,10,12,7,set up continuous integration for testing,0
+291,E-Commerce,develop interactive designs,ui/ux design,adobe xd,1,1,low,3,1,1,7,none,0
+291,E-Commerce,automate deployment process,devops,"ansible,bash,docker,terraform",4,3,medium,7,10,5,7,design a landing page,3
+291,E-Commerce,manage infrastructure with terraform,devops,"terraform,bash,ci/cd,jenkins",4,5,medium,17,25,10,7,implement user authentication,8
+291,E-Commerce,monitor server health,devops,ansible,1,2,medium,4,7,3,7,implement user authentication,3
+291,E-Commerce,manage cloud resources,cloud,azure,1,5,high,11,17,5,7,automate infrastructure provisioning,6
+291,E-Commerce,design a user-friendly interface,frontend,sass,1,1,medium,4,6,3,7,implement user authentication,2
+291,E-Commerce,set up kubernetes clusters,devops,git,1,4,high,8,14,9,7,design a landing page,6
+291,E-Commerce,perform end-to-end testing,testing,cypress,1,3,medium,6,4,5,7,none,0
+291,E-Commerce,monitor cloud services,cloud,google cloud,1,5,high,15,18,5,7,manage infrastructure with terraform,3
+291,E-Commerce,perform data migration to new schema,database,postgresql,1,3,medium,9,7,3,7,none,0
+305,Banking,test frontend components,testing,jest,1,3,high,6,9,4,5,none,3
+305,Banking,implement authentication mechanisms,backend,jwt,1,1,low,3,4,3,5,none,1
+305,Banking,deploy application on aws,cloud,aws,1,1,medium,3,4,3,5,none,1
+305,Banking,implement accessibility standards,frontend,aria,1,1,medium,3,1,2,5,implement authentication mechanisms,0
+305,Banking,implement caching mechanisms,backend,redis,1,4,high,14,16,10,5,deploy application on aws,2
+305,Banking,create a dynamic dashboard,frontend,vue,1,2,low,7,10,2,5,none,3
+305,Banking,create a responsive website,frontend,"vue,react,css",3,2,low,6,8,5,5,implement caching mechanisms,2
+305,Banking,manage database operations,backend,"python,go,database",3,4,high,12,13,7,5,deploy application on aws,1
+305,Banking,set up continuous integration for testing,testing,jenkins,1,2,low,9,8,6,5,none,0
+305,Banking,automate integration tests,testing,"cypress,pytest,mocha,jest",4,3,medium,15,14,4,5,none,0
+305,Banking,implement a landing page,frontend,angular,1,5,high,15,21,9,5,none,6
+305,Banking,create test cases for api,testing,"jest,pytest",2,1,low,3,2,1,5,create a dynamic dashboard,0
+305,Banking,build scalable microservices,backend,docker,1,3,high,14,18,7,5,deploy application on aws,4
+305,Banking,design a user-friendly interface,frontend,"ember.js,ux,bootstrap,user-friendly",4,3,high,9,12,6,5,none,3
+317,Banking,optimize server performance,backend,"django,php,api,kotlin",4,3,high,9,8,6,7,none,0
+317,Banking,manage database operations,backend,"java,laravel",2,1,medium,3,1,1,7,none,0
+317,Banking,develop unit tests,testing,junit,1,1,medium,2,2,3,7,none,0
+317,Banking,write unit tests,testing,"testing library,junit,cypress,pytest",4,1,low,3,1,2,7,none,0
+317,Banking,run performance tests,testing,"pytest,jest",2,1,low,5,3,3,7,manage database operations,0
+317,Banking,conduct performance testing,testing,jmeter,1,4,high,18,22,4,7,optimize server performance,4
+317,Banking,automate ci/cd pipeline,devops,jenkins,1,4,high,18,26,11,7,optimize server performance,8
+317,Banking,monitor and manage database performance,database,oracle,1,5,high,16,25,14,7,none,9
+321,Portfolio Website,design a user-friendly interface,frontend,"ux,bootstrap",2,1,medium,3,4,2,6,none,1
+321,Portfolio Website,build interactive forms,frontend,typescript,1,2,low,9,8,6,6,none,0
+321,Portfolio Website,optimize website loading speed,frontend,webpack,1,4,medium,13,16,11,6,none,3
+321,Portfolio Website,optimize website for seo,frontend,html,1,2,medium,7,9,6,6,none,2
+321,Portfolio Website,manage cloud services on heroku,cloud,"aws,google cloud,heroku,azure",4,1,low,4,6,3,6,none,2
+321,Portfolio Website,automate deployment to heroku,cloud,heroku,1,1,medium,4,5,1,6,none,1
+321,Portfolio Website,perform load testing,testing,"cypress,chai",2,5,high,10,13,9,6,optimize website loading speed,3
+321,Portfolio Website,integrate firebase authentication,cloud,firebase,1,3,high,7,9,8,6,none,2
+321,Portfolio Website,develop interactive designs,ui/ux design,adobe xd,1,4,high,19,27,7,6,none,8
+324,Inventory Management,implement caching mechanisms,backend,redis,1,4,medium,12,17,8,8,none,5
+324,Inventory Management,optimize database queries,backend,sql,1,4,high,15,22,12,8,none,7
+324,Inventory Management,design a user-friendly interface,frontend,typescript,1,2,low,6,8,2,8,none,2
+324,Inventory Management,test frontend components,testing,jest,1,3,medium,11,14,6,8,implement caching mechanisms,3
+324,Inventory Management,develop machine learning models,data science,tensorflow,1,2,medium,9,9,6,8,none,0
+324,Inventory Management,integrate third-party services,backend,"django,scala,laravel,database",4,4,medium,20,19,8,8,none,0
+324,Inventory Management,set up database backup and restore protocols,database,mongodb,1,1,medium,5,3,3,8,none,0
+324,Inventory Management,perform load testing,testing,"mocha,jest,junit,chai",4,5,high,10,12,8,8,design a user-friendly interface,2
+324,Inventory Management,build a microservice,backend,"scala,kotlin,laravel,spring boot",4,2,low,6,10,5,8,none,4
+332,Healthcare,set up firebase for app hosting,cloud,"heroku,azure",2,4,high,9,16,5,7,none,7
+332,Healthcare,train model for gesture recognition,ai/ml,mediapipe,1,2,low,5,3,4,7,none,0
+332,Healthcare,implement natural language processing for text analysis,ai/ml,spacy,1,2,medium,8,6,5,7,none,0
+332,Healthcare,visualize data insights,data science,tableau,1,3,medium,15,21,6,7,none,6
+332,Healthcare,implement accessibility standards,frontend,aria,1,4,high,12,15,6,7,none,3
+332,Healthcare,integrate external payment gateway,backend,node.js,1,1,medium,2,2,2,7,none,0
+332,Healthcare,build model for detecting diabetic retinopathy in images,ai/ml,densenet,1,3,high,12,11,8,7,visualize data insights,0
+332,Healthcare,implement reinforcement learning for game ai,ai/ml,stable baselines,1,2,medium,8,9,4,7,none,1
+333,Social Media,create restful apis,backend,node.js,1,2,medium,10,14,6,3,none,4
+333,Social Media,train model for autonomous driving,ai/ml,carla,1,1,medium,4,5,3,3,none,1
+333,Social Media,conduct real-time text translation,ai/ml,marianmt,1,1,medium,4,4,2,3,none,0
+333,Social Media,create wireframes and prototypes,ui/ux design,figma,1,1,medium,4,2,2,3,none,0
+333,Social Media,build a time series forecasting model,ai/ml,prophet,1,5,high,11,11,11,3,none,0
+333,Social Media,manage cloud resources,cloud,azure,1,3,medium,6,9,5,3,create restful apis,3
+333,Social Media,create trend prediction model for fashion,ai/ml,lstm,1,3,high,6,5,5,3,none,0
+333,Social Media,perform security testing,testing,owasp,1,4,high,19,21,11,3,conduct real-time text translation,2
+333,Social Media,implement face detection feature,ai/ml,opencv,1,3,medium,13,18,4,3,none,5
+333,Social Media,create speech synthesis model,ai/ml,tacotron,1,5,high,13,20,9,3,none,7
+333,Social Media,write unit tests,testing,jest,1,1,low,4,3,2,3,conduct real-time text translation,0
+333,Social Media,develop image super-resolution using deep learning,ai/ml,esrgan,1,4,high,16,14,8,3,none,0
+333,Social Media,implement natural language processing for text analysis,ai/ml,spacy,1,5,high,14,15,11,3,none,1
+333,Social Media,develop ai model for medical diagnosis,ai/ml,densenet,1,2,low,4,8,4,3,none,4
+333,Social Media,conduct behavior analysis in retail environments,ai/ml,keras,1,2,medium,9,12,4,3,none,3
+333,Social Media,build speech-to-text model for voice commands,ai/ml,deepspeech,1,1,medium,4,3,1,3,none,0
+333,Social Media,deploy application on aws,cloud,aws,1,3,high,6,6,5,3,create restful apis,0
+333,Social Media,build a microservice,backend,asp.net,1,4,high,10,11,10,3,none,1
+333,Social Media,build language model for poetry generation,ai/ml,gpt-2 fine-tuning,1,2,low,6,9,4,3,none,3
+335,Healthcare,implement caching mechanisms,backend,redis,1,1,medium,2,2,3,4,none,0
+335,Healthcare,build a microservice architecture,backend,spring boot,1,1,low,3,4,1,4,none,1
+335,Healthcare,conduct sentiment analysis for tweets,ai/ml,vader,1,3,high,15,21,6,4,none,6
+335,Healthcare,optimize website loading speed,frontend,webpack,1,4,high,19,19,6,4,build a microservice architecture,0
+335,Healthcare,deploy app on aws,cloud,"firebase,heroku",2,5,high,13,13,15,4,implement caching mechanisms,0
+335,Healthcare,perform statistical analysis,data science,r,1,2,low,4,6,5,4,none,2
+335,Healthcare,deploy application on aws,cloud,aws,1,2,medium,7,11,6,4,build a microservice architecture,4
+335,Healthcare,write unit tests,testing,"jest,cypress,selenium,testing library",4,3,high,13,16,3,4,implement caching mechanisms,3
+335,Healthcare,implement style transfer for images,ai/ml,neuralstyle,1,1,medium,3,5,2,4,perform statistical analysis,2
+335,Healthcare,visualize data insights,data science,tableau,1,5,high,14,17,9,4,none,3
+335,Healthcare,conduct disease prediction model for healthcare,ai/ml,logistic regression,1,3,high,12,17,4,4,none,5
+335,Healthcare,set up image data annotation for computer vision,ai/ml,supervisely,1,2,medium,8,11,4,4,none,3
+335,Healthcare,train image captioning model,ai/ml,show and tell,1,3,high,9,13,4,4,visualize data insights,4
+335,Healthcare,add animations to improve ux,frontend,gsap,1,2,medium,7,9,2,4,implement caching mechanisms,2
+335,Healthcare,set up ml experiment tracking,ai/ml,mlflow,1,3,medium,12,10,4,4,visualize data insights,0
+335,Healthcare,develop ai-based handwriting recognition system,ai/ml,crnn,1,5,medium,22,25,13,4,visualize data insights,3
+335,Healthcare,implement text sentiment analysis for product reviews,ai/ml,textblob,1,2,medium,8,9,5,4,visualize data insights,1
+335,Healthcare,create data caching mechanism,backend,redis,1,2,low,8,10,3,4,none,2
+337,Portfolio Website,develop a mobile-first ui,frontend,"ember.js,ux,ui,javascript",4,1,low,2,1,2,5,none,0
+337,Portfolio Website,write integration tests,testing,junit,1,2,medium,7,6,2,5,none,0
+337,Portfolio Website,test frontend components,testing,jest,1,2,medium,4,8,3,5,develop a mobile-first ui,4
+337,Portfolio Website,implement dark mode theme,frontend,css,1,4,high,8,13,12,5,none,5
+337,Portfolio Website,create automated test cases,testing,selenium,1,4,medium,19,20,11,5,none,1
+337,Portfolio Website,optimize web performance,frontend,"ember.js,html",2,4,medium,16,19,11,5,none,3
+337,Portfolio Website,monitor cloud services,cloud,google cloud,1,5,medium,24,34,7,5,none,10
+337,Portfolio Website,implement responsive design,frontend,sass,1,5,high,12,19,10,5,none,7
+337,Portfolio Website,create wireframes and prototypes,ui/ux design,figma,1,4,high,10,13,7,5,none,3
+337,Portfolio Website,perform load testing,testing,mocha,1,3,high,11,11,7,5,optimize web performance,0
+337,Portfolio Website,implement cloud backup,cloud,heroku,1,4,high,12,12,9,5,none,0
+337,Portfolio Website,automate ui testing,testing,selenium,1,1,medium,4,3,3,5,implement dark mode theme,0
+337,Portfolio Website,improve website accessibility,frontend,"materialize,foundation,sass",3,3,high,10,12,6,5,create wireframes and prototypes,2
+337,Portfolio Website,conduct performance testing,testing,jmeter,1,1,low,4,5,1,5,optimize web performance,1
+337,Portfolio Website,deploy application on aws,cloud,aws,1,3,medium,10,14,5,5,none,4
+337,Portfolio Website,optimize website loading speed,frontend,webpack,1,4,high,18,16,6,5,none,0
+337,Portfolio Website,set up selenium for browser tests,testing,"selenium,chai,cypress",3,2,low,4,6,2,5,implement dark mode theme,2
+337,Portfolio Website,manage cloud resources,cloud,azure,1,3,medium,14,20,4,5,none,6
+337,Portfolio Website,implement accessibility standards,frontend,aria,1,1,low,4,2,2,5,create wireframes and prototypes,0
+337,Portfolio Website,set up continuous integration for testing,testing,jenkins,1,3,high,15,13,6,5,improve website accessibility,0
+348,Food Delivery,design database schema for user profiles,database,mysql,1,3,medium,6,4,6,7,none,0
+348,Food Delivery,create reusable ui components,frontend,react,1,3,high,8,12,7,7,none,4
+348,Food Delivery,deploy application on aws,cloud,aws,1,4,medium,15,19,6,7,none,4
+348,Food Delivery,develop interactive designs,ui/ux design,adobe xd,1,5,medium,11,18,9,7,none,7
+348,Food Delivery,implement cloud backup,cloud,"aws,azure,google cloud,firebase",4,1,medium,5,4,1,7,none,0
+348,Food Delivery,optimize server performance,backend,"laravel,django",2,2,medium,5,3,3,7,none,0
+348,Food Delivery,conduct user research,ui/ux design,usertesting,1,4,high,15,14,7,7,none,0
+348,Food Delivery,add animations to improve ux,frontend,gsap,1,4,medium,17,17,10,7,conduct user research,0
+348,Food Delivery,build scalable microservices,backend,docker,1,5,medium,21,21,9,7,none,0
+348,Food Delivery,implement authentication and authorization,backend,jwt,1,4,high,8,11,9,7,design database schema for user profiles,3
+348,Food Delivery,create a dynamic dashboard,frontend,vue,1,3,high,9,7,5,7,develop interactive designs,0
+348,Food Delivery,optimize web performance,frontend,"vue,user-friendly,ui",3,2,low,8,8,5,7,develop interactive designs,0
+348,Food Delivery,develop unit tests,testing,junit,1,1,low,2,1,3,7,none,0
+348,Food Delivery,perform load testing,testing,mocha,1,1,low,3,5,2,7,optimize web performance,2
+348,Food Delivery,write unit tests,testing,"testing library,chai",2,4,high,8,11,8,7,optimize server performance,3
+357,Booking System,set up continuous integration for testing,testing,jenkins,1,1,low,2,4,2,3,none,2
+357,Booking System,implement responsive design,frontend,sass,1,5,medium,15,18,15,3,none,3
+357,Booking System,write unit tests for apis,testing,pytest,1,3,medium,14,15,3,3,implement responsive design,1
+357,Booking System,implement user authentication,backend,spring boot,1,3,high,11,10,8,3,none,0
+357,Booking System,optimize database queries for performance,backend,sql,1,3,high,6,9,6,3,none,3
+357,Booking System,optimize web performance,frontend,ux,1,2,low,6,10,2,3,none,4
+357,Booking System,design a user-friendly interface,frontend,"typescript,css",2,5,high,21,22,14,3,implement user authentication,1
+357,Booking System,design database schema for user profiles,database,mysql,1,2,low,5,8,5,3,none,3
+357,Booking System,implement dark mode theme,frontend,css,1,5,medium,11,17,13,3,implement user authentication,6
+357,Booking System,create test cases for api,testing,"pytest,selenium",2,2,low,5,6,5,3,design a user-friendly interface,1
+357,Booking System,optimize website loading speed,frontend,webpack,1,1,medium,5,6,2,3,implement user authentication,1
+357,Booking System,configure google cloud storage,cloud,aws,1,3,high,11,16,7,3,none,5
+357,Booking System,integrate external payment gateway,backend,node.js,1,4,high,13,13,7,3,none,0
+362,Healthcare,build a time series forecasting model,ai/ml,prophet,1,5,high,12,17,15,4,none,5
+362,Healthcare,implement noise reduction in audio files,ai/ml,wave-u-net,1,5,high,20,20,10,4,none,0
+362,Healthcare,set up image data annotation for computer vision,ai/ml,supervisely,1,5,medium,10,18,9,4,none,8
+362,Healthcare,integrate firebase authentication,cloud,firebase,1,4,medium,16,16,9,4,none,0
+362,Healthcare,implement dark mode theme,frontend,css,1,3,medium,7,13,3,4,none,6
+362,Healthcare,perform dimensionality reduction for high-dimensional data,ai/ml,pca,1,3,high,6,4,9,4,none,0
+362,Healthcare,set up real-time translation for multilingual customer support,ai/ml,marianmt,1,5,high,21,27,15,4,none,6
+362,Healthcare,design database schema for user profiles,database,mysql,1,1,medium,5,3,3,4,none,0
+362,Healthcare,conduct feature selection for a large dataset,ai/ml,borutapy,1,2,medium,9,12,6,4,none,3
+362,Healthcare,implement a landing page,frontend,"ember.js,typescript",2,5,high,23,23,9,4,none,0
+385,Social Media,implement document similarity for plagiarism detection,ai/ml,doc2vec,1,4,medium,10,15,10,8,none,5
+385,Social Media,implement deepfake video generator,ai/ml,stylegan,1,2,low,5,3,2,8,none,0
+385,Social Media,monitor and manage database performance,database,oracle,1,4,medium,13,19,4,8,none,6
+385,Social Media,train time series model for demand forecasting,ai/ml,facebook prophet,1,3,medium,15,19,6,8,none,4
+385,Social Media,integrate firebase authentication,cloud,firebase,1,3,medium,7,11,8,8,none,4
+385,Social Media,design a landing page,frontend,angular,1,4,high,12,16,4,8,none,4
+385,Social Media,train a language translation model,ai/ml,hugging face,1,2,medium,4,6,4,8,none,2
+385,Social Media,implement authentication mechanisms,backend,jwt,1,1,medium,5,5,1,8,integrate firebase authentication,0
+385,Social Media,develop real-time video analytics for surveillance,ai/ml,yolov5,1,4,medium,11,19,4,8,none,8
+385,Social Media,implement user feedback,ui/ux design,sketch,1,1,medium,3,4,1,8,none,1
+385,Social Media,create a dynamic dashboard,frontend,vue,1,4,high,15,20,12,8,implement user feedback,5
+385,Social Media,monitor cloud services,cloud,google cloud,1,5,high,19,25,5,8,implement authentication mechanisms,6
+385,Social Media,conduct performance testing,testing,jmeter,1,4,medium,15,13,12,8,implement authentication mechanisms,0
+389,Social Media,conduct audio sentiment analysis using speech patterns,ai/ml,praat,1,4,high,19,24,6,6,none,5
+389,Social Media,build scalable microservices,backend,docker,1,5,high,11,10,9,6,none,0
+389,Social Media,conduct behavior analysis in retail environments,ai/ml,keras,1,2,medium,6,5,2,6,none,0
+389,Social Media,write unit tests,testing,"cypress,testing library,junit",3,4,medium,10,15,5,6,conduct audio sentiment analysis using speech patterns,5
+389,Social Media,optimize indexing for faster searches,database,elasticsearch,1,1,medium,2,1,3,6,none,0
+389,Social Media,set up real-time translation for multilingual customer support,ai/ml,marianmt,1,5,high,10,9,9,6,none,0
+389,Social Media,design a landing page,frontend,angular,1,3,medium,10,16,8,6,none,6
+389,Social Media,implement authentication mechanisms,backend,jwt,1,2,low,7,10,4,6,optimize indexing for faster searches,3
+389,Social Media,improve website accessibility,frontend,"ember.js,bootstrap",2,4,medium,18,26,6,6,implement authentication mechanisms,8
+389,Social Media,optimize database queries,backend,sql,1,1,medium,5,7,3,6,optimize indexing for faster searches,2
+389,Social Media,deploy app on aws,cloud,"aws,google cloud",2,3,medium,7,10,7,6,build scalable microservices,3
+389,Social Media,implement authentication and authorization,backend,jwt,1,5,high,12,11,6,6,none,0
+389,Social Media,develop a mobile-first ui,frontend,"jquery,html,bootstrap",3,3,medium,8,13,7,6,none,5
+389,Social Media,train a language translation model,ai/ml,hugging face,1,5,high,15,15,15,6,none,0
+389,Social Media,develop restful apis,backend,node.js,1,2,medium,5,9,6,6,none,4
+389,Social Media,train model for image recognition,ai/ml,pytorch,1,5,high,16,14,7,6,none,0
+389,Social Media,create reusable ui components,frontend,react,1,1,medium,3,2,3,6,optimize database queries,0
+389,Social Media,implement face detection feature,ai/ml,opencv,1,3,medium,15,16,8,6,none,1
+389,Social Media,design a user-friendly interface,frontend,vue,1,5,high,13,20,14,6,develop restful apis,7
+389,Social Media,implement personality prediction from social media,ai/ml,liwc,1,2,medium,10,14,2,6,none,4
+392,Inventory Management,automate integration tests,testing,"cypress,testing library",2,1,medium,5,4,1,3,none,0
+392,Inventory Management,build a microservice,backend,flask,1,1,medium,4,4,3,3,none,0
+392,Inventory Management,automate ui testing,testing,selenium,1,2,medium,9,8,3,3,build a microservice,0
+392,Inventory Management,perform statistical analysis,data science,r,1,4,high,19,20,11,3,none,1
+392,Inventory Management,develop rest api for user management,backend,spring boot,1,5,high,21,24,13,3,none,3
+392,Inventory Management,optimize website loading speed,frontend,webpack,1,3,medium,6,8,3,3,none,2
+392,Inventory Management,design a user-friendly interface,frontend,typescript,1,5,high,24,34,15,3,develop rest api for user management,10
+392,Inventory Management,build a recommendation engine,data science,python,1,5,high,25,28,13,3,none,3
+392,Inventory Management,perform load testing,testing,"mocha,testing library",2,4,medium,14,21,9,3,develop rest api for user management,7
+392,Inventory Management,create restful apis,backend,node.js,1,2,medium,10,12,6,3,none,2
+392,Inventory Management,test frontend components,testing,jest,1,5,high,25,24,7,3,none,0
+392,Inventory Management,create reusable ui components,frontend,react,1,4,high,10,10,9,3,build a microservice,0
+392,Inventory Management,perform data migration to new schema,database,postgresql,1,5,medium,20,22,14,3,none,2
+392,Inventory Management,create automated test cases,testing,selenium,1,5,high,17,24,6,3,create reusable ui components,7
+392,Inventory Management,implement dark mode theme,frontend,css,1,5,high,23,31,15,3,build a microservice,8
+392,Inventory Management,set up database backup and restore protocols,database,mongodb,1,5,high,15,18,15,3,none,3
+392,Inventory Management,optimize database queries,backend,sql,1,1,medium,2,2,2,3,perform data migration to new schema,0
+392,Inventory Management,develop an api,backend,c++,1,1,low,3,4,1,3,set up database backup and restore protocols,1
+392,Inventory Management,monitor and manage database performance,database,oracle,1,3,medium,10,8,4,3,none,0
+392,Inventory Management,optimize server performance,backend,"node.js,c++,ruby",3,2,low,6,10,3,3,monitor and manage database performance,4
+407,Food Delivery,manage cloud resources,cloud,azure,1,2,low,8,6,4,5,none,0
+407,Food Delivery,perform end-to-end testing,testing,cypress,1,1,low,2,3,3,5,none,1
+407,Food Delivery,develop unit tests,testing,junit,1,3,medium,10,9,8,5,none,0
+407,Food Delivery,set up firebase for app hosting,cloud,"azure,firebase,aws,heroku",4,5,high,22,29,8,5,none,7
+407,Food Delivery,optimize server performance,backend,"ruby,php",2,1,medium,5,7,2,5,none,2
+407,Food Delivery,automate ui testing,testing,selenium,1,3,medium,10,12,6,5,optimize server performance,2
+407,Food Delivery,implement caching mechanisms,backend,redis,1,4,high,15,14,5,5,none,0
+407,Food Delivery,conduct performance testing,testing,jmeter,1,1,medium,5,7,1,5,none,2
+407,Food Delivery,deploy application on aws,cloud,aws,1,3,high,13,13,9,5,none,0
+409,Portfolio Website,add animations to improve ux,frontend,gsap,1,4,high,18,20,6,6,none,2
+409,Portfolio Website,set up continuous integration for testing,testing,jenkins,1,1,low,2,3,3,6,add animations to improve ux,1
+409,Portfolio Website,implement a landing page,frontend,"html,user-friendly,jquery",3,4,high,18,18,7,6,none,0
+409,Portfolio Website,create reusable ui components,frontend,react,1,4,high,14,17,4,6,none,3
+409,Portfolio Website,conduct user research,ui/ux design,usertesting,1,5,high,19,23,5,6,none,4
+409,Portfolio Website,perform end-to-end testing,testing,cypress,1,5,high,17,25,10,6,none,8
+409,Portfolio Website,set up selenium for browser tests,testing,"jest,selenium",2,1,medium,4,3,2,6,implement a landing page,0
+409,Portfolio Website,integrate firebase authentication,cloud,firebase,1,3,high,11,12,4,6,none,1
+409,Portfolio Website,optimize website loading speed,frontend,webpack,1,2,medium,7,8,3,6,conduct user research,1
+409,Portfolio Website,implement user feedback,ui/ux design,sketch,1,5,high,19,17,12,6,none,0
+409,Portfolio Website,deploy application on aws,cloud,aws,1,5,high,24,27,14,6,none,3
+409,Portfolio Website,migrate services to azure,cloud,"aws,firebase,google cloud,heroku",4,5,high,11,9,9,6,none,0
+409,Portfolio Website,implement dark mode theme,frontend,css,1,2,medium,6,5,6,6,none,0
+409,Portfolio Website,perform security testing,testing,owasp,1,5,medium,11,12,15,6,create reusable ui components,1
+409,Portfolio Website,write integration tests,testing,junit,1,3,high,11,13,4,6,implement a landing page,2
+409,Portfolio Website,run performance tests,testing,"chai,cypress,testing library",3,2,medium,7,9,5,6,none,2
+410,Food Delivery,automate integration tests,testing,"jest,selenium,chai",3,2,medium,7,7,6,3,none,0
+410,Food Delivery,monitor and manage database performance,database,oracle,1,4,high,20,27,7,3,none,7
+410,Food Delivery,perform end-to-end testing,testing,cypress,1,2,low,4,7,3,3,none,3
+410,Food Delivery,migrate services to azure,cloud,heroku,1,3,medium,7,5,6,3,none,0
+410,Food Delivery,perform security testing,testing,owasp,1,1,medium,4,2,2,3,none,0
+410,Food Delivery,perform data migration to new schema,database,postgresql,1,1,low,2,1,1,3,none,0
+410,Food Delivery,build a microservice architecture,backend,spring boot,1,4,medium,16,20,8,3,perform data migration to new schema,4
+410,Food Delivery,improve website accessibility,frontend,"ui,bootstrap",2,1,medium,2,1,2,3,build a microservice architecture,0
+410,Food Delivery,develop rest api for user management,backend,spring boot,1,4,high,17,15,9,3,perform data migration to new schema,0
+410,Food Delivery,set up firebase for app hosting,cloud,aws,1,3,medium,10,9,6,3,develop rest api for user management,0
+410,Food Delivery,manage cloud services on heroku,cloud,firebase,1,3,high,11,10,5,3,develop rest api for user management,0
+410,Food Delivery,implement cloud backup,cloud,"aws,firebase,heroku,azure",4,2,low,9,7,2,3,none,0
+410,Food Delivery,set up continuous integration for testing,testing,jenkins,1,3,high,13,13,8,3,build a microservice architecture,0
+410,Food Delivery,write unit tests,testing,mocha,1,2,medium,4,6,4,3,build a microservice architecture,2
+410,Food Delivery,create data caching mechanism,backend,redis,1,3,medium,9,7,5,3,none,0
+410,Food Delivery,deploy application on aws,cloud,aws,1,1,low,5,3,3,3,build a microservice architecture,0
+432,Education,build scalable microservices,backend,docker,1,5,medium,25,32,10,5,none,7
+432,Education,build interactive forms,frontend,typescript,1,4,high,16,22,7,5,none,6
+432,Education,integrate external payment gateway,backend,node.js,1,2,low,10,13,5,5,none,3
+432,Education,design a landing page,frontend,angular,1,2,low,9,8,2,5,build scalable microservices,0
+432,Education,optimize server performance,backend,"go,c",2,5,medium,24,26,13,5,none,2
+432,Education,run performance tests,testing,"testing library,cypress,junit,selenium",4,2,medium,7,6,5,5,none,0
+432,Education,design for accessibility,ui/ux design,wcag,1,2,medium,7,5,2,5,none,0
+432,Education,add animations to improve ux,frontend,gsap,1,2,low,8,11,3,5,build scalable microservices,3
+432,Education,improve website accessibility,frontend,"user-friendly,react,vue",3,1,low,4,3,3,5,none,0
+432,Education,design a user-friendly interface,frontend,ux,1,4,high,14,15,4,5,none,1
+432,Education,monitor and manage database performance,database,oracle,1,3,high,6,7,4,5,none,1
+434,Healthcare,train model for image recognition,ai/ml,pytorch,1,2,medium,7,10,2,3,none,3
+434,Healthcare,develop authentication system,backend,django,1,3,high,10,9,4,3,none,0
+434,Healthcare,design a landing page,frontend,angular,1,4,medium,11,19,11,3,develop authentication system,8
+434,Healthcare,develop restful apis,backend,node.js,1,1,medium,2,1,1,3,none,0
+434,Healthcare,develop real-time weather forecasting model,ai/ml,lstm,1,4,medium,18,23,6,3,none,5
+434,Healthcare,build speech-to-text model for voice commands,ai/ml,deepspeech,1,2,low,10,10,4,3,none,0
+434,Healthcare,set up facial emotion recognition system,ai/ml,fer (facial expression recognition),1,3,high,15,15,5,3,none,0
+434,Healthcare,implement style transfer for images,ai/ml,neuralstyle,1,2,medium,4,2,2,3,none,0
+434,Healthcare,conduct semantic similarity analysis,ai/ml,sentence-bert,1,1,medium,5,6,2,3,none,1
+434,Healthcare,train real-time face authentication model,ai/ml,facenet,1,3,medium,9,7,9,3,none,0
+434,Healthcare,develop sentiment analysis model for movie reviews,ai/ml,bert,1,3,high,14,18,6,3,none,4
+434,Healthcare,optimize website loading speed,frontend,webpack,1,3,medium,12,16,6,3,develop restful apis,4
+434,Healthcare,set up firebase for app hosting,cloud,"aws,azure,heroku,firebase",4,4,high,8,16,6,3,none,8
+434,Healthcare,perform hyperparameter tuning,ai/ml,optuna,1,3,medium,11,9,6,3,none,0
+434,Healthcare,train model for image segmentation,ai/ml,u-net,1,3,high,8,12,3,3,none,4
+434,Healthcare,optimize indexing for faster searches,database,elasticsearch,1,2,medium,5,4,3,3,none,0
+441,Booking System,create data caching mechanism,backend,redis,1,2,medium,8,11,6,7,none,3
+441,Booking System,implement user feedback,ui/ux design,sketch,1,4,medium,9,13,10,7,none,4
+441,Booking System,add animations to improve ux,frontend,gsap,1,4,medium,20,19,9,7,implement user feedback,0
+441,Booking System,implement authentication mechanisms,backend,jwt,1,3,high,15,17,4,7,none,2
+441,Booking System,automate deployment to heroku,cloud,heroku,1,2,low,8,10,3,7,implement authentication mechanisms,2
+441,Booking System,optimize web performance,frontend,vue,1,1,low,3,3,1,7,create data caching mechanism,0
+441,Booking System,optimize website for seo,frontend,html,1,5,high,18,17,5,7,implement authentication mechanisms,0
+441,Booking System,set up database backup and restore protocols,database,mongodb,1,3,medium,9,15,9,7,none,6
+441,Booking System,optimize server performance,backend,"database,flask,django,c++",4,2,medium,5,8,2,7,none,3
+451,E-Commerce,create test cases for api,testing,"pytest,selenium",2,3,medium,13,15,8,3,none,2
+451,E-Commerce,develop authentication system,backend,django,1,3,high,14,12,4,3,none,0
+451,E-Commerce,containerize applications,devops,kubernetes,1,5,high,17,16,7,3,develop authentication system,0
+451,E-Commerce,implement accessibility standards,frontend,aria,1,2,medium,10,10,6,3,develop authentication system,0
+451,E-Commerce,conduct performance testing,testing,jmeter,1,2,medium,6,10,6,3,none,4
+451,E-Commerce,automate deployment pipelines,devops,ansible,1,5,medium,24,27,7,3,none,3
+451,E-Commerce,automate infrastructure provisioning,devops,terraform,1,2,low,5,3,3,3,none,0
+451,E-Commerce,optimize indexing for faster searches,database,elasticsearch,1,4,high,18,24,11,3,none,6
+451,E-Commerce,set up selenium for browser tests,testing,"testing library,pytest",2,2,medium,6,6,3,3,develop authentication system,0
+451,E-Commerce,manage database operations,backend,"php,laravel,database,java",4,3,high,12,17,3,3,optimize indexing for faster searches,5
+451,E-Commerce,implement server automation,devops,ansible,1,1,medium,2,4,2,3,set up selenium for browser tests,2
+451,E-Commerce,monitor server health,devops,"prometheus,jenkins",2,5,high,10,14,11,3,implement accessibility standards,4
+451,E-Commerce,develop an api,backend,"database,java,php",3,1,medium,5,7,1,3,optimize indexing for faster searches,2
+451,E-Commerce,design a landing page,frontend,angular,1,2,medium,4,8,4,3,develop authentication system,4
+451,E-Commerce,perform security testing,testing,owasp,1,3,high,10,14,9,3,develop an api,4
+451,E-Commerce,implement user authentication,backend,"rust,go,spring boot,kotlin",4,4,high,16,24,7,3,optimize indexing for faster searches,8
+452,Booking System,develop interactive designs,ui/ux design,adobe xd,1,3,high,12,15,9,5,none,3
+452,Booking System,conduct performance testing,testing,jmeter,1,3,high,7,7,7,5,none,0
+452,Booking System,create wireframes and prototypes,ui/ux design,figma,1,3,high,10,13,8,5,none,3
+452,Booking System,conduct user research,ui/ux design,usertesting,1,1,medium,2,1,2,5,none,0
+452,Booking System,automate ui testing,testing,selenium,1,5,medium,10,12,15,5,none,2
+452,Booking System,integrate firebase authentication,cloud,firebase,1,4,medium,12,19,11,5,none,7
+452,Booking System,create data caching mechanism,backend,redis,1,1,low,3,1,2,5,none,0
+452,Booking System,optimize database queries,backend,sql,1,3,high,15,15,4,5,none,0
+452,Booking System,develop restful apis,backend,node.js,1,4,medium,10,13,6,5,none,3
+452,Booking System,build scalable microservices,backend,docker,1,2,medium,6,7,5,5,none,1
+452,Booking System,automate deployment to heroku,cloud,heroku,1,5,high,21,30,7,5,create data caching mechanism,9
+452,Booking System,implement caching mechanisms,backend,redis,1,1,low,4,3,1,5,none,0
+452,Booking System,design a user-friendly interface,frontend,"foundation,sass,ember.js",3,4,medium,9,14,9,5,build scalable microservices,5
+456,Booking System,implement cloud backup,cloud,heroku,1,1,medium,2,3,3,7,none,1
+456,Booking System,implement accessibility standards,frontend,aria,1,2,low,6,10,5,7,none,4
+456,Booking System,perform data migration to new schema,database,postgresql,1,3,high,6,6,5,7,none,0
+456,Booking System,implement a landing page,frontend,"redux,bootstrap,typescript,react",4,3,high,7,9,8,7,none,2
+456,Booking System,integrate third-party services,backend,"c++,rust,go,spring boot",4,2,medium,5,3,5,7,none,0
+456,Booking System,perform end-to-end testing,testing,cypress,1,3,high,15,17,3,7,integrate third-party services,2
+456,Booking System,automate deployment to heroku,cloud,heroku,1,5,medium,25,27,7,7,integrate third-party services,2
+456,Booking System,set up database backup and restore protocols,database,mongodb,1,1,low,2,3,2,7,none,1
+456,Booking System,design for accessibility,ui/ux design,wcag,1,2,low,4,4,4,7,none,0
+456,Booking System,create a dynamic dashboard,frontend,vue,1,2,medium,8,12,2,7,design for accessibility,4
+456,Booking System,build scalable microservices,backend,docker,1,2,low,5,5,2,7,none,0
+462,Banking,manage infrastructure with terraform,devops,"monitoring,ci/cd,terraform,git",4,5,high,20,19,10,4,none,0
+462,Banking,improve website accessibility,frontend,"ui,angular",2,3,high,6,10,8,4,none,4
+462,Banking,perform security testing,testing,owasp,1,1,low,4,2,1,4,none,0
+462,Banking,implement accessibility standards,frontend,aria,1,4,high,9,12,9,4,none,3
+462,Banking,automate deployment to heroku,cloud,heroku,1,2,medium,5,8,5,4,none,3
+462,Banking,set up database backup and restore protocols,database,mongodb,1,4,high,14,13,8,4,none,0
+462,Banking,monitor server health,devops,"jenkins,puppet,ansible,kubernetes",4,5,high,11,19,12,4,none,8
+462,Banking,containerize applications,devops,kubernetes,1,5,medium,20,20,12,4,none,0
+462,Banking,automate integration tests,testing,"jest,testing library,mocha,cypress",4,5,medium,14,15,6,4,none,1
+462,Banking,implement container orchestration,devops,kubernetes,1,4,high,13,20,12,4,perform security testing,7
+462,Banking,develop rest api for user management,backend,spring boot,1,2,low,8,8,3,4,automate deployment to heroku,0
+471,Booking System,test frontend components,testing,jest,1,2,low,8,9,5,7,none,1
+471,Booking System,migrate services to azure,cloud,firebase,1,2,medium,10,8,5,7,none,0
+471,Booking System,run performance tests,testing,"selenium,mocha,pytest,junit",4,4,medium,13,21,4,7,none,8
+471,Booking System,create restful apis,backend,node.js,1,2,medium,5,5,4,7,migrate services to azure,0
+471,Booking System,add animations to improve ux,frontend,gsap,1,2,medium,7,9,5,7,create restful apis,2
+471,Booking System,create test cases for api,testing,"junit,chai,mocha",3,2,medium,4,2,5,7,none,0
+471,Booking System,create a responsive website,frontend,"bootstrap,vue",2,3,medium,15,16,6,7,create restful apis,1
+471,Booking System,deploy application on aws,cloud,aws,1,3,medium,7,8,5,7,create restful apis,1
+471,Booking System,implement cloud backup,cloud,"firebase,heroku,aws,google cloud",4,1,low,5,6,2,7,none,1
+471,Booking System,create wireframes and prototypes,ui/ux design,figma,1,4,high,16,16,6,7,none,0
+476,Social Media,automate integration tests,testing,"chai,testing library,selenium",3,5,medium,25,25,10,3,none,0
+476,Social Media,build image classifier for animal species detection,ai/ml,mobilenet,1,4,medium,8,6,11,3,none,0
+476,Social Media,set up reinforcement learning for stock trading,ai/ml,proximal policy optimization,1,4,medium,18,21,12,3,none,3
+476,Social Media,create personalized ad targeting model,ai/ml,xgboost,1,1,low,3,2,2,3,none,0
+476,Social Media,conduct user research,ui/ux design,usertesting,1,3,medium,13,13,8,3,none,0
+476,Social Media,automate data augmentation for training images,ai/ml,augmentor,1,5,medium,23,30,6,3,none,7
+476,Social Media,deploy application on aws,cloud,aws,1,1,low,3,2,2,3,none,0
+476,Social Media,implement reinforcement learning for game ai,ai/ml,stable baselines,1,3,high,13,17,4,3,none,4
+476,Social Media,implement user authentication,backend,"laravel,database,ruby",3,2,medium,6,9,4,3,deploy application on aws,3
+476,Social Media,develop authentication system,backend,django,1,4,high,15,19,5,3,none,4
+476,Social Media,perform data migration to new schema,database,postgresql,1,5,high,25,27,12,3,none,2
+476,Social Media,conduct real-time text translation,ai/ml,marianmt,1,4,high,16,17,10,3,none,1
+476,Social Media,create data caching mechanism,backend,redis,1,2,low,8,6,6,3,none,0
+476,Social Media,design adversarial examples for model testing,ai/ml,cleverhans,1,1,low,3,1,1,3,none,0
+476,Social Media,optimize server performance,backend,java,1,2,low,9,11,3,3,deploy application on aws,2
+476,Social Media,implement model for fraudulent credit card transaction detection,ai/ml,catboost,1,4,medium,11,12,7,3,none,1
+476,Social Media,implement natural language processing for text analysis,ai/ml,spacy,1,3,medium,7,12,8,3,none,5
+476,Social Media,develop interactive designs,ui/ux design,adobe xd,1,2,medium,8,10,4,3,none,2
+476,Social Media,develop personalized ad recommendation based on browsing data,ai/ml,collaborative filtering,1,2,medium,6,6,6,3,none,0
+478,Banking,monitor and manage database performance,database,oracle,1,1,low,5,7,3,5,none,2
+478,Banking,implement a landing page,frontend,typescript,1,2,low,5,7,3,5,none,2
+478,Banking,design a user-friendly interface,frontend,"react,foundation,ember.js,css",4,1,medium,2,3,3,5,none,1
+478,Banking,create a responsive website,frontend,"ember.js,vue,css,foundation",4,1,medium,2,1,2,5,none,0
+478,Banking,perform security testing,testing,owasp,1,5,high,19,24,14,5,none,5
+478,Banking,automate ci/cd pipeline,devops,jenkins,1,5,high,15,18,5,5,create a responsive website,3
+478,Banking,automate deployment process,devops,"jenkins,git,docker",3,2,low,9,11,4,5,design a user-friendly interface,2
+478,Banking,optimize indexing for faster searches,database,elasticsearch,1,5,high,20,23,6,5,none,3
+480,Healthcare,integrate third-party services,backend,"spring boot,rust,laravel",3,3,medium,15,19,6,6,none,4
+480,Healthcare,build a generative adversarial network (gan),ai/ml,tensorflow-gan,1,5,medium,13,14,12,6,none,1
+480,Healthcare,perform end-to-end testing,testing,cypress,1,1,low,3,5,1,6,integrate third-party services,2
+480,Healthcare,write unit tests,testing,"chai,junit",2,3,medium,8,14,5,6,none,6
+480,Healthcare,optimize database queries,backend,sql,1,3,medium,14,15,8,6,none,1
+480,Healthcare,develop recommendation system based on user ratings,ai/ml,als,1,3,medium,14,19,6,6,none,5
+480,Healthcare,implement automated machine learning (automl),ai/ml,h2o.ai,1,3,medium,11,12,5,6,none,1
+480,Healthcare,implement user authentication,backend,"go,scala,flask,django",4,2,low,9,11,5,6,none,2
+480,Healthcare,build a microservice,backend,"laravel,java,go",3,1,medium,3,3,1,6,none,0
+480,Healthcare,conduct feature engineering for predictive model,ai/ml,featuretools,1,1,low,5,7,2,6,none,2
+480,Healthcare,configure google cloud storage,cloud,"heroku,firebase,azure",3,1,low,4,4,1,6,build a microservice,0
+480,Healthcare,optimize website for seo,frontend,html,1,2,medium,10,8,2,6,implement user authentication,0
+480,Healthcare,automate integration tests,testing,junit,1,5,high,19,24,5,6,implement automated machine learning (automl),5
+486,Booking System,write unit tests for apis,testing,pytest,1,4,medium,9,12,9,7,none,3
+486,Booking System,monitor and manage database performance,database,oracle,1,4,high,16,17,9,7,none,1
+486,Booking System,integrate third-party services,backend,"c,flask,api,rust",4,5,high,25,24,11,7,monitor and manage database performance,0
+486,Booking System,write integration tests,testing,junit,1,5,high,22,21,11,7,integrate third-party services,0
+486,Booking System,implement authentication and authorization,backend,jwt,1,2,low,6,7,5,7,monitor and manage database performance,1
+486,Booking System,integrate external payment gateway,backend,node.js,1,2,medium,10,11,6,7,monitor and manage database performance,1
+486,Booking System,build interactive forms,frontend,typescript,1,1,low,2,1,1,7,none,0
+486,Booking System,build a microservice architecture,backend,spring boot,1,5,medium,18,28,14,7,monitor and manage database performance,10
+486,Booking System,develop restful apis,backend,node.js,1,1,medium,5,3,1,7,monitor and manage database performance,0
+486,Booking System,develop a mobile-first ui,frontend,"redux,jquery",2,4,high,10,13,5,7,none,3
+486,Booking System,develop interactive designs,ui/ux design,adobe xd,1,2,low,9,8,4,7,none,0
+486,Booking System,design a user-friendly interface,frontend,"ux,bootstrap,foundation,css",4,3,medium,11,11,8,7,integrate external payment gateway,0
+486,Booking System,manage cloud resources,cloud,azure,1,5,medium,21,24,14,7,integrate external payment gateway,3
+486,Booking System,monitor cloud services,cloud,google cloud,1,2,medium,7,7,2,7,develop restful apis,0
+495,Project Management,develop interactive designs,ui/ux design,adobe xd,1,1,medium,2,4,2,5,none,2
+495,Project Management,design for accessibility,ui/ux design,wcag,1,1,medium,2,2,2,5,none,0
+495,Project Management,improve website accessibility,frontend,"sass,javascript,css",3,2,medium,8,12,2,5,develop interactive designs,4
+495,Project Management,automate deployment process,devops,git,1,5,medium,13,18,13,5,improve website accessibility,5
+495,Project Management,monitor and manage database performance,database,oracle,1,5,high,19,20,11,5,none,1
+495,Project Management,develop authentication system,backend,django,1,4,medium,19,24,9,5,monitor and manage database performance,5
+495,Project Management,implement authentication and authorization,backend,jwt,1,1,low,3,3,1,5,monitor and manage database performance,0
+495,Project Management,monitor system logs and alerts,devops,prometheus,1,5,medium,15,20,5,5,improve website accessibility,5
+495,Project Management,create a responsive website,frontend,"angular,jquery,react",3,5,medium,14,17,9,5,develop interactive designs,3
+495,Project Management,build scalable microservices,backend,docker,1,5,medium,24,33,9,5,monitor and manage database performance,9
+495,Project Management,create wireframes and prototypes,ui/ux design,figma,1,5,medium,18,16,14,5,none,0
+495,Project Management,write unit tests for apis,testing,pytest,1,5,medium,20,25,13,5,none,5
+495,Project Management,set up database backup and restore protocols,database,mongodb,1,5,medium,18,25,10,5,none,7
+495,Project Management,add animations to improve ux,frontend,gsap,1,4,high,11,10,4,5,implement authentication and authorization,0
+495,Project Management,run performance tests,testing,"testing library,selenium",2,4,high,13,17,7,5,develop authentication system,4
+496,Education,perform data migration to new schema,database,postgresql,1,2,low,10,13,3,3,none,3
+496,Education,optimize database queries for performance,backend,sql,1,5,medium,15,15,7,3,perform data migration to new schema,0
+496,Education,build a microservice architecture,backend,spring boot,1,4,medium,11,17,7,3,none,6
+496,Education,conduct user research,ui/ux design,usertesting,1,3,high,15,15,3,3,none,0
+496,Education,build interactive forms,frontend,typescript,1,4,medium,15,23,11,3,build a microservice architecture,8
+496,Education,conduct performance testing,testing,jmeter,1,1,low,2,1,1,3,build a microservice architecture,0
+496,Education,build scalable microservices,backend,docker,1,5,high,18,23,7,3,none,5
+496,Education,run performance tests,testing,"junit,jest,testing library,selenium",4,4,medium,10,18,12,3,none,8
+496,Education,build a microservice,backend,django,1,5,high,13,16,7,3,perform data migration to new schema,3
+496,Education,optimize server performance,backend,"c++,java,database",3,2,low,7,6,5,3,none,0
+496,Education,create a dynamic dashboard,frontend,vue,1,2,low,9,13,5,3,none,4
+496,Education,develop a mobile-first ui,frontend,"vue,user-friendly,ux",3,3,high,13,13,5,3,none,0
+496,Education,perform end-to-end testing,testing,cypress,1,4,high,13,13,12,3,optimize server performance,0
+498,Banking,implement a landing page,frontend,"sass,ui",2,5,high,11,20,15,3,none,9
+498,Banking,containerize applications,devops,kubernetes,1,3,high,8,9,3,3,implement a landing page,1
+498,Banking,monitor system logs and alerts,devops,prometheus,1,3,high,10,11,3,3,none,1
+498,Banking,automate infrastructure provisioning,devops,terraform,1,1,low,3,2,3,3,none,0
+498,Banking,write integration tests,testing,junit,1,3,high,7,7,7,3,implement a landing page,0
+498,Banking,implement server automation,devops,ansible,1,4,medium,8,11,6,3,implement a landing page,3
+498,Banking,set up selenium for browser tests,testing,jest,1,2,medium,5,4,3,3,implement a landing page,0
+498,Banking,develop an api,backend,"kotlin,scala",2,4,medium,8,7,10,3,none,0
+498,Banking,optimize website for seo,frontend,html,1,3,high,6,11,3,3,none,5
+498,Banking,configure docker containers,devops,"git,puppet",2,3,medium,12,16,5,3,write integration tests,4
+498,Banking,build a microservice,backend,"laravel,api,spring boot",3,1,low,5,4,2,3,none,0
+498,Banking,create automated test cases,testing,selenium,1,5,medium,19,25,6,3,optimize website for seo,6
+498,Banking,design database schema for user profiles,database,mysql,1,4,medium,8,6,8,3,none,0
+498,Banking,implement caching mechanisms,backend,redis,1,2,low,7,8,3,3,design database schema for user profiles,1

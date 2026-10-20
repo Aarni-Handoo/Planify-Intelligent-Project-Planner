@@ -1,2 +1,10 @@
 Flask
 Flask-Cors
+numpy
+pandas
+scipy
+joblib
+requests
+python-dotenv
+# Saved V2 models were created with scikit-learn 1.7.2.
+scikit-learn==1.7.2

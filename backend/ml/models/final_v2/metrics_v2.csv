@@ -1,0 +1,9 @@
+Model,Metric,Score
+Category,Accuracy,1.0
+Complexity,Accuracy,0.6222
+Priority,Accuracy,0.7517
+Estimated Hours,MAE,2.2423
+Estimated Hours,R2,0.7842
+Required Skills,Micro F1,0.6637
+Delay Risk,F1,0.7672
+Delay Risk,Accuracy,0.8243
